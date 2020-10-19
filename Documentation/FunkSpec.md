@@ -14,3 +14,9 @@ A felhasználó unaloműzés szempontjából elindítja a játékot. Indulás ut
 Az első célpont azonnal megjelenik a képernyő közepén, viszont azt csak a lábán találja el, így csak 1 pontot kapott érte. A találat után azonnal megjelent most éppen a bal-felső sarokban, aminek szerencsére a fejét találta el, ami már 3 pontot is ér, viszont a további találatok nem olyan sikeresek. Mivel ez még az első játéka a mai nap, ezért sokáig tart, mire sikerül egy-egy célpontot eltalálnia. Egyre idegesebb, mert mindig mellé talál, de végül elérte a 100 pontot, viszont ez még a top 10-ben se volt benne. Dühében újrakezdi ugyanazt a pályát, és bár most jobban teljesít, ő még mindig nem elégedett.
 
 Visszamegy a kezdőképernyőre és egy újabb játékba kezd, viszont most a másik pályát választja. Régen játszott már ezen a pályán, viszont máris jobban teljesít, mint korábban. Nagyon hamar el is érte a 100 pontot, ezzel a rekorddal az első helyre került, aminek nagyon is örül, így egy újabb próbát tesz, amivel egy újabb rekordot dönt, újra legyőzte az első helyen lévő időt. Mára nagy örömmel a kilépés gombbal ki is lép a játékból.
+
+## Funkció – követelmény megfeleltetés
+------------------------------
+- A játék egyszerű felépítése, kinézete, valamint összességében egyszerűsége sok retro játékos számára nagy élményt tud adni
+- A kód megírása Java-ban történik, így a GUI megtervezése JavaFX SceneBuilder segítségével nagyon könnyen megvalósítható
+- A rekordokat egy adatbázisban kerül tárolásra
