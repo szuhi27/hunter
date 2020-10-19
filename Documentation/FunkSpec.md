@@ -8,7 +8,8 @@ Mai világunkban az interneten kutatva már minden típusú játékot megtalálh
 
 ## Jelenlegi üzleti folyamatok modellje
 
-+ Jelenleg nem igazán beszélhetünk üzleti folyamatokról, hiszen aki a progam elkészítésével bízta meg a csapatot, egy gyerekkori játékról való emlékét szeretné megvalósíttatni. + + Nincs egy funkció amit át kellene alakítanunk, tehát jelenleg nincs üzleti folyamatunk, nekünk kell létrehozni egyet az igények alapján.
++ Jelenleg nem igazán beszélhetünk üzleti folyamatokról, hiszen aki a progam elkészítésével bízta meg a csapatot, egy gyerekkori játékról való emlékét szeretné megvalósíttatni.
++ Nincs egy funkció amit át kellene alakítanunk, tehát jelenleg nincs üzleti folyamatunk, nekünk kell létrehozni egyet az igények alapján.
 
 ## Igényelt üzleti folyamatok modellje
 
