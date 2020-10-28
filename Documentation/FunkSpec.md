@@ -57,4 +57,10 @@ Visszamegy a kezdőképernyőre és egy újabb játékba kezd, viszont most a m�
 
 Használati esetek
 -----------------
+A programhoz egyszerre csak egy felhasznáó tud hozzáférni lokálisan. A felhasználó irányítja a
+programot de annak adataihoz nem tud hozzáférni, nem tudja módosítnai. Új adatok kerülnek eltárolásra
+a játék eredménye képében, ezen eredményeket egy új fájlban (esetlegesen ugyanabba a fájlba)
+rendezésre kerülnek.
 
+Adat elmentésre csak teljes futás során kerül, vagyis ha egy kör le lett játszva. Természetesen az 
+eredményeket a felhasználó nem tudja módosítani a programon belülről.
