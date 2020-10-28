@@ -5,6 +5,16 @@ Követelmény specifikáció
 
 Mai világunkban az interneten kutatva már minden típusú játékot megtalálhatunk, de annyi féle játék van,hogy előfordul,hogy azt az egyet nem találjuk meg, amelyiket keressük.Az üzletember, Dr. Remek Elek  is ebbe a problémába ütközött, amikor az interneten keresgélt egy gyerekkori játék után. Emlékszik, hogy gyerekkorában volt egy játék, amellyel nagyon gyakran játszott,de akárhogy is kutat sehogy sem találja, pedig szeretne nosztalgiázni egy kicsit és játszani vele, valamint megmutatni az unokaöccsének,hogy ő mivel játszott amikor annyi idős volt mint ő és mennyire hasonlított vagy éppen nem hasonlított a mai játékokra.
 
+Vágyálomrendszer
+----------------
+Szeretnénk egy játékot, ami egy késő 90-es, korai 2000 évek lövöldözős játékáraira emlékeztet.
+Maga a játékmenet legyen egyszerű, csak szimplán jelenljenek meg az "ellenfelek" a képernőn és 
+le kelljen őket lőni, azzal, hogy rájuk kattintunk. Meg lehessen különböztetni a "lövés minőségét"
+pl.: fejlövés, testlövés. De a lényeg hogy egy kellemes játék jöjjön létre, ami a régi időket
+idézi fel. Természetesen szeretnénk bele egy módot maivel lehet tárolni az elért elerdményt
+és azokat kilistázni, például a legjobb 10 eredményt. Valamint kellene legyen alatta valamilyen
+háttérzene illetve hangefektek, pl.: lövés hangja.
+
 ## 4. Jelenlegi üzleti folyamatok modellje
 ------------------------------
 + 4.1 Rengeteg nagyon modern és nagyon sokféle lövöldözős játék van a piacon, legyen az online vagy offline
