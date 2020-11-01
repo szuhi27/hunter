@@ -24,3 +24,22 @@ A következő tervben a dátumok és a fejlesztők felsorolása történik. Font
 + Fejlesztés megkezdése
 + Tesztelés
 + Bemutatás
+
+## Üzleti folyamatok
+
+### Üzleti szereplők
++ A játék használója elsősorban az a személy lesz aki felkérte a csapatot az elkészítésre.
++ A programot valószínűleg a készíttető fiatalabb rokonai is használni fogják majd 
+
+### Üzleti folyamatok
+
++ A folyamat, a használat nagyon egyszerűú
++ A program feltelepítése után indítható is a játék.
++ Egy ablakban látjuk a használható gombokat, egy Exitet mely bezárja a programot, egy Mute gombot, amellyel a háttérzenét némíthatjuk le valamit itt tudjuk kiválasztani milyen pályán szeretnénk játszani.
++ 2 pályából választhatunk.
++ A feladatunk a pályán megjelenő alakok eltalálása.
++ A test eltalálása esetén 1 , fej eltalálása esetén 2 pontot kapunk.
++ A játék 100 pont eléréséig tart.
++ A játék végén a program idő szerint sorolja a játékosokat.
++ Neveket megadva minket is elment a Highscore táblába.
++ A végén lehetőségünk van kilépni vagy új játékot kezdeni.
