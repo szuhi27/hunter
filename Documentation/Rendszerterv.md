@@ -59,3 +59,7 @@ A számítógépekre való feltelepítéshez szükség van egy pár követelmén
 - valamint egy internet böngésző
 
 Ha ez mind megvan, akkor csak egyszerűen be kell gépelni a címsorba a weboldalnak a címét, ahonnan letölthető lesz a futtatható program. Semmiféle telepítésre nincs szükség, egy dupla kattintással máris elindul és használható is. Ajánlatos a letöltött program ikonját az asztalra elhelyezni, hogy könnyebben és gyorsabban meg tudjuk nyitni a programot. Valamint mivel platformfüggetlen a program, így használhatjuk akármelyik operációs rendszeren, legyen az Linux, Windows vagy macOS.
+
+## Karbantartási terv
+------------------------------
+Természetesen egy szoftver kiadása után nem áll le a fejlesztése. Szükség van további javításokra és bővítésekre. A később felmerülő hibákat és ötleteket jelezni kell a feljesztőknek, akik folyamatosan dolgoznak ezen problémák megoldásán, így szükség van a program karbantartására. Ehhez megfelelően a felmerülő súlyos hibákat minél gyorsabban javítják és adják ki az újabb verziót, amit újra le kell tölteni a korábban megadott weboldalról. Viszont az új ötletek megvalósításához több időre van szükség, így azok ritkábban kerülnek kiadásra. Mivel a szoftver futásához nincs szükség internetkapcsolathoz, így nagy eséllyel az esetleges vírus fenyegetettség miatt nem kell aggódni. 
