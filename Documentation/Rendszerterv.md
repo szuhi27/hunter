@@ -49,3 +49,13 @@ A beta teszt pedig már lehet nyilvános is, ilyenkor akárki tesztelheti, aki s
 - újabb tartalom hozzáadása
 
 Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem található a programban, és a mások által feltett és a fejlesztő által elfogadott változtatásokat, újításokat is implementáltuk. Ezután meg is történhet a szoftver első kiadása.
+
+## Telepítési terv
+------------------------------
+A számítógépekre való feltelepítéshez szükség van egy pár követelményre:
+
+- egy működő számítógép
+- annak hozzáférése az internethez
+- valamint egy internet böngésző
+
+Ha ez mind megvan, akkor csak egyszerűen be kell gépelni a címsorba a weboldalnak a címét, ahonnan letölthető lesz a futtatható program. Semmiféle telepítésre nincs szükség, egy dupla kattintással máris elindul és használható is. Ajánlatos a letöltött program ikonját az asztalra elhelyezni, hogy könnyebben és gyorsabban meg tudjuk nyitni a programot. Valamint mivel platformfüggetlen a program, így használhatjuk akármelyik operációs rendszeren, legyen az Linux, Windows vagy macOS.
