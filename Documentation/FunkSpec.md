@@ -34,6 +34,10 @@ háttérzene illetve hangefektek, pl.: lövés hangja.
 + A progamnak menteni kell a pontszámot és mindig az első 10 legjobbat mutatni.
 + Az idő fejezze ki a helyezést a highscore-ban, minél hamarabb végez valaki a pályával, annál előrébb kerüljön a listában.
 
+## Használati esetek
+A programban csak a felhasználó fér hozzá az adatokhoz, viszont azokat még ő sem módosíthatja. Az adatok feldolgozása a háttérben történik, azok feldolgozás során nem módosulnak semmilyen módon. Új adatok nem kerülnek eltárolásra, sem létrehozva a program futása során.
+
+A felasználó dönt a program futásáról és leállásáról.
 
 ## Képernyő tervek
 ------------------------------

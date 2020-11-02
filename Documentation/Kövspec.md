@@ -36,3 +36,12 @@ háttérzene illetve hangefektek, pl.: lövés hangja.
 + 5.5 Egy lövés vagy találat vagy nem, semmi extra eszköz a fegyveren kívül
 + 5.6 Cél egy bizonyos pont elérése és eredményként, hogy az mennyi időt vett igénybe
 + 5.7 Korábbi rekordok elmentése és a 10 legjobb idő visszanézése 
+
+## 6. Követelménylista
+------------------------------
++ 6.1 Dokumentáltság. A programhoz,és annak használatához a tudásanyag egy helyen elérhető legyen bármikor a felhasználók számára.
++ 6.2  Terméktámogatás. A nyelvprogram legyen használható windows 10 operációs rendszeren, valamint annak minden jövőbeli verziójára frissítve legyen.
++ 6.3 Minden hazai törvénynek megfeleljen.
++ 6.4 Minden változtatás és frissités nyomon követhető legyen a program fejlesztése, karbantartása közben. Legyen hozzá egy napló vezetve.
++ 6.5 A játék first person view -ban legyen játszható.
++ 6.6 Jó lenne gy lista melyben megjeleníti a legjobb 10 pontszámot amit elértek a játékban.
