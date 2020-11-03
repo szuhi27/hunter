@@ -5,6 +5,15 @@ Funkcionális specifikáció
 
 Mai világunkban az interneten kutatva már minden típusú játékot megtalálhatunk, de annyi féle játék van,hogy előfordul,hogy azt az egyet nem találjuk meg, amelyiket keressük.Az üzletember Dr. Remek Elek  is ebbe a problémába ütközött, amikor az interneten keresgélt egy gyerekkori játék után. Emlékszik, hogy gyerekkorában volt egy játék, amellyel nagyon gyakran játszott,de akárhogy is kutat sehogy sem találja, pedig szeretne nosztalgiázni egy kicsit és játszani vele, valamint megmutatni az unokaöccsének,,hogy ő mivel játszott régen és mennyire hasonlított a mai játékokra.
 
+Vágyálomrendszer
+----------------
+Szeretnénk egy játékot, ami egy késő 90-es, korai 2000 évek lövöldözős játékáraira emlékeztet.
+Maga a játékmenet legyen egyszerű, csak szimplán jelenljenek meg az "ellenfelek" a képernőn és 
+le kelljen őket lőni, azzal, hogy rájuk kattintunk. Meg lehessen különböztetni a "lövés minőségét"
+pl.: fejlövés, testlövés. De a lényeg hogy egy kellemes játék jöjjön létre, ami a régi időket
+idézi fel. Természetesen szeretnénk bele egy módot maivel lehet tárolni az elért elerdményt
+és azokat kilistázni, például a legjobb 10 eredményt. Valamint kellene legyen alatta valamilyen
+háttérzene illetve hangefektek, pl.: lövés hangja.
 
 ## Jelenlegi üzleti folyamatok modellje
 
@@ -45,3 +54,13 @@ Visszamegy a kezdőképernyőre és egy újabb játékba kezd, viszont most a m�
 - A játék egyszerű felépítése, kinézete, valamint összességében egyszerűsége sok retro játékos számára nagy élményt tud adni
 - A kód megírása Java-ban történik, így a GUI megtervezése JavaFX SceneBuilder segítségével nagyon könnyen megvalósítható
 - A rekordokat egy adatbázisban kerül tárolásra
+
+Használati esetek
+-----------------
+A programhoz egyszerre csak egy felhasznáó tud hozzáférni lokálisan. A felhasználó irányítja a
+programot de annak adataihoz nem tud hozzáférni, nem tudja módosítnai. Új adatok kerülnek eltárolásra
+a játék eredménye képében, ezen eredményeket egy új fájlban (esetlegesen ugyanabba a fájlba)
+rendezésre kerülnek.
+
+Adat elmentésre csak teljes futás során kerül, vagyis ha egy kör le lett játszva. Természetesen az 
+eredményeket a felhasználó nem tudja módosítani a programon belülről.
