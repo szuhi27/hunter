@@ -39,6 +39,15 @@ A programban csak a felhasználó fér hozzá az adatokhoz, viszont azokat még 
 
 A felasználó dönt a program futásáról és leállásáról.
 
+Iduláskor a felhasználó egy menüt fog látni. Amiben elindíthatja a játékot vagy megnézheti a Scoreboardot.
+Ha a Scoreboard-ra kattint akkor a legjobb 10 eredmény-t fogja látni amit valaha elértek a játékban.
+Ha elindítja a játékot egy rövid viszaszámlálás után elkezdenek megjelenni a képernyőn a katonák, és rájuk kell kattintani. Ha ez megtörténik akkor eltűnnek,és a pontszám növelődik.
+A játék véget ér ha a felhasználó 3-szor mellé lő vagy lejár az ideje.
+Ekkor az aktuális pontszáma kerül kiírásra a képernyőn egy Game Over felirattal.
+MAjd eldöntheti hogy újraindítja ajátékot vagy kilép a programból.
+
+
+
 ## Képernyő tervek
 ------------------------------
 A program kinézetének célja, hogy azt a nosztalgia érzést váltsa ki az emberből, mintha újra gyerekként játszana a játékkal. Tehát egyszerű megjelenés, semmi extra gomb vagy kinézet, vagyis a minimalista megközelítés a cél. Megnyitáskor legyen valami háttérkép és zene, ami azonnal belemeríti a felhasználót a játék érzésébe. Játék elindítása, legjobb rekordok, valamint kilépést végrehajtó gombok legyenek a képernyő közepén elhelyezve. Egyéb beállítást ne nagyon lehessen módosítani. A High-Score menüben a legjobb 10 jelenjen csak meg, abból is a legjobb 3 arany, ezüst és bronz színnel és éremmel vagy serleggel legyen megjelenítve, ami megszokott más játékoknál is. Innen könnyen vissza lehet lépni a kezdőképernyőre, ahonnan el tudjuk indítani magát a játékot. 
