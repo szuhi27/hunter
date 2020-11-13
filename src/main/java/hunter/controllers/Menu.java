@@ -15,11 +15,11 @@ import javafx.scene.media.Media;
 import javafx.stage.Stage;
 import javafx.scene.media.MediaPlayer;
 import javafx.util.Duration;
-import lombok.extern.slf4j.Slf4j;
+
 
 import java.io.IOException;
 
-@Slf4j
+
 public class Menu {
 
     @FXML
@@ -35,7 +35,7 @@ public class Menu {
 
     //map choosing
     public void Play(ActionEvent event) {
-        log.info("Getting map choosing buttons on");
+
         buttonsVBox.setVisible(false);
         //button images will be here
         maps.setVisible(true);
@@ -43,7 +43,7 @@ public class Menu {
 
     //afghan map
     public void goAfghanistan(ActionEvent event) throws IOException {
-        log.info("Changing scene to Afghanistan");
+
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/playAfghanFXML.fxml"));
         stage.setScene(new Scene(root));
@@ -52,7 +52,7 @@ public class Menu {
     }
 
     public void highscore(ActionEvent event) throws IOException {
-        log.info("Changing scene to high score Scene");
+
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/highscore.fxml"));
         stage.setScene(new Scene(root));
@@ -61,18 +61,18 @@ public class Menu {
     }
 
     public void exitApp(ActionEvent event) {
-        log.info("Exiting app...");
+
         Platform.exit();
     }
 
     public void mute(ActionEvent event) {
         if (music) {
-            log.info("Music muted");
+
             music = false;
             a.pause();
             muteIV.setImage(new Image(getClass().getResource("/images/menuS/unmuteBcg.png").toExternalForm()));
         } else {
-            log.info("Music unmuted");
+
             music = true;
             a.play();
             muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
