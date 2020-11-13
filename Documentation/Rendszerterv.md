@@ -70,6 +70,27 @@ eltárolásra.
 A futási eredményk aztán sorbarendezésre kerülnek, és a highscore részben azonból a legjobbakat 
 tekinthetjük meg.
 
+Követelmények
+---------------------
++ A rendszer window 10 rendszeren fusson
++ A rendszer könnyen kezelhető legyen, elég legyen az egérrel vezérelni.
++ A játékban miközben éppen lőjük a katonákat fusson aképernyőn egy időzítő.
++ A játék tárolja el a 10 legjobb eredményt.
++ A játék értékelje  pontosabb célzást.
++ Játszon le zenét a program miközben játszunk.
++ Játék közben is írja ki a program hogy éppen hány pontnál járunk.
++ legyenek megkülönböztethető méretű célpontok a játékban.
+
+
+
+Funkcionális terv
+-----------------
+A program funkcióit az alábbi képernyőtervekkel szeretném felvázolni. Megnyitjuk a programot 
+
+Fizikai Környezet
+---------------------
+A programot Java nyelven írjuk java fx segítségével, adatbázisnak egyszerű szöveges dokumentumot alkalmazunk, Windows 10 rendszerre.
+
 ## Tesztterv
 ------------------------------
 Minden programot tesztelni kell, mivel sohasem lehet tudni mikor mi nem működik úgy ahogy annak kellene. Tökéletes kód nem létezik, ezért van szükség tesztelésre. A kód írója persze állandóan nézi, hogy amit implementál, az úgy működik-e, ahogy ő azt tervezte, azonban ez szinte soha sem elég. Ezért van mindig szükség legalább egy, de inkább több harmadik személyre is, akik kipróbálják a programot, mert ahány ember, annyiféle módon használnak egy alkalmazást. Így bukkanhatunk rá olyan hibákra is, amire egyáltalán nem is számítottunk. Azonban nem csak hibákat próbálunk keresni teszteléskor, hanem más szempontjából is akarjuk látni, hogy milyen is maga a program. Kaphatunk ötleteket, hogy mivel egészítenék ki az eddigi munkát, vagy hogy min változtatnának rajta, mivel szerintük az jobb lenne a felhasználóknak.
