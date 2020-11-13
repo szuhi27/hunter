@@ -14,7 +14,7 @@ public class GameplayData {
 
     }
 
-    public static void SaveGameData(String file, String name, int score, String time, int missed, int killed){
+    public static void SaveGameData(String file, String name, int score, String time, int missed, int killed) throws IOException {
 
             FileWriter fw = new FileWriter(file,true);
             BufferedWriter writer = new BufferedWriter(fw);
