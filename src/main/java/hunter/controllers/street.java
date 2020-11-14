@@ -39,6 +39,12 @@ public class street {
         scoreCheck();
     }
 
+    public void scoreCheck() throws IOException {
+        if (score < 20) {
+            enemy();
+        }
+    }
+
     public  void random() {
         int lastEnemy = whichEnemy;
         Random random = new Random();
