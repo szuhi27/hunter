@@ -25,6 +25,12 @@ public class street {
     private int killed = 0, score = 0;
     private Pane thisEnemy;
 
+    @FXML
+    public void initialize(){
+        streetBcg.setImage(new Image(getClass().getResource("/images/street/bcgStreet.png").toExternalForm()));
+
+    }
+
     public  void random() {
         int lastEnemy = whichEnemy;
         Random random = new Random();
