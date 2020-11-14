@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -20,9 +21,29 @@ public class street {
     private Pane one, two, three, four, five, six, seven;
     @FXML
     private ImageView streetBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
+    @FXML
+    private Text scoreT;
 
     private int whichEnemy;
+    private int killed = 0, score = 0;
     private Pane thisEnemy;
+
+    @FXML
+    public void initialize(){
+        streetBcg.setImage(new Image(getClass().getResource("/images/street/bcgStreet.png").toExternalForm()));
+
+    }
+
+    public void start(ActionEvent event) throws IOException {
+        scoreT.setText("Score: " + score);
+        scoreCheck();
+    }
+
+    public void scoreCheck() throws IOException {
+        if (score < 20) {
+            enemy();
+        }
+    }
 
     public  void random() {
         int lastEnemy = whichEnemy;
@@ -33,10 +54,11 @@ public class street {
         }
     }
 
-    public void body(ActionEvent event) {
-
+    public void body(ActionEvent event) throws IOException{
+        ++score;
+        scoreT.setText("Score: " + score);
         thisEnemy.setVisible(false);
-
+        scoreCheck();
     }
 
     public void toMenu(ActionEvent event) throws IOException {
