@@ -54,10 +54,11 @@ public class street {
         }
     }
 
-    public void body(ActionEvent event) {
-
+    public void body(ActionEvent event) throws IOException{
+        ++score;
+        scoreT.setText("Score: " + score);
         thisEnemy.setVisible(false);
-
+        scoreCheck();
     }
 
     public void toMenu(ActionEvent event) throws IOException {
