@@ -56,6 +56,13 @@
             <Button layoutX="38.0" layoutY="43.0" mnemonicParsing="false" onAction="#body" opacity="0.0" prefHeight="107.0" prefWidth="75.0" text="body" />
          </children>
       </Pane>
+      <Pane fx:id="one" layoutX="376.0" layoutY="41.0" prefHeight="150.0" prefWidth="150.0" style="-fx-rotate: 30deg;" visible="false">
+         <children>
+            <ImageView fx:id="enemyOne" fitHeight="158.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+            <Button mnemonicParsing="false" onAction="#missClick" opacity="0.0" prefHeight="150.0" prefWidth="150.0" text="missed" />
+            <Button layoutX="38.0" layoutY="43.0" mnemonicParsing="false" onAction="#body" opacity="0.0" prefHeight="107.0" prefWidth="75.0" text="body" />
+         </children>
+      </Pane>
    </children>
    <cursor>
       <Cursor fx:constant="CROSSHAIR" />
