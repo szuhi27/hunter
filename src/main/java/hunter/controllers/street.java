@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -20,6 +21,8 @@ public class street {
     private Pane one, two, three, four, five, six, seven;
     @FXML
     private ImageView streetBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
+    @FXML
+    private Text scoreT;
 
     private int whichEnemy;
     private int killed = 0, score = 0;
@@ -29,6 +32,11 @@ public class street {
     public void initialize(){
         streetBcg.setImage(new Image(getClass().getResource("/images/street/bcgStreet.png").toExternalForm()));
 
+    }
+
+    public void start(ActionEvent event) throws IOException {
+        scoreT.setText("Score: " + score);
+        scoreCheck();
     }
 
     public  void random() {
