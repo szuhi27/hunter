@@ -22,6 +22,7 @@ public class street {
     private ImageView streetBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
 
     private int whichEnemy;
+    private int killed = 0, score = 0;
     private Pane thisEnemy;
 
     public  void random() {
