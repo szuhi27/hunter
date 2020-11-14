@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="819.0" prefWidth="1228.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shooter.controllers.HighScore">
+   <children>
+      <ImageView fx:id="hsBcg" fitHeight="819.0" fitWidth="1228.0" pickOnBounds="true" preserveRatio="true" />
+      <TextArea fx:id="textArea" editable="false" layoutX="154.0" layoutY="282.0" prefHeight="454.0" prefWidth="924.0" promptText="AAA     0000     00:00     0       0" style="-fx-font-size: 3em; -fx-background-color: #8a9a5b;" />
+      <TextArea fx:id="placements" editable="false" layoutX="72.0" layoutY="282.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="454.0" prefWidth="81.0" style="-fx-font-size: 3em;" text="1.&#10;2.&#10;3.&#10;4.&#10;5.&#10;6.&#10;7.&#10;8.&#10;9.&#10;10." />
+      <ImageView fx:id="menuButtonIV" fitHeight="54.0" fitWidth="177.0" layoutX="989.0" layoutY="744.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="menuB" layoutX="988.0" layoutY="744.0" mnemonicParsing="false" onAction="#menuGoGo" opacity="0.0" prefHeight="54.0" prefWidth="177.0" text="Menu" />
+      <Text fx:id="titles" fill="WHITE" layoutX="153.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 3em;" text="Name    Score     Time   Misses   Kills" wrappingWidth="924.0" />
+      <ChoiceBox fx:id="choiceBox" layoutX="524.0" layoutY="751.0" prefHeight="39.0" prefWidth="183.0" />
+      <ImageView fx:id="loadIV" fitHeight="50.0" fitWidth="100.0" layoutX="411.0" layoutY="747.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="choiceButton" layoutX="411.0" layoutY="746.0" mnemonicParsing="false" onAction="#getChoice" opacity="0.0" prefHeight="40.0" prefWidth="100.0" style="-fx-font-size: 2.5em; -fx-background-color: #8a9a5b;" text="Load" />
+      <ImageView fx:id="clearIV" fitHeight="40.0" fitWidth="100.0" layoutX="721.0" layoutY="750.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="721.0" layoutY="751.0" mnemonicParsing="false" onAction="#clearPress" opacity="0.0" prefHeight="40.0" prefWidth="100.0" text="clear scores" />
+      <Pane fx:id="confirmPane" layoutX="514.0" layoutY="91.0" prefHeight="121.0" prefWidth="200.0" style="-fx-background-color: #8a9a5b;" visible="false">
+         <children>
+            <Text layoutX="28.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 2em;" text="Are you sure?" />
+            <Button layoutX="14.0" layoutY="64.0" mnemonicParsing="false" onAction="#yes" prefHeight="32.0" prefWidth="73.0" style="-fx-font-size: 2em; -fx-background-color: #8a9a8b;" text="Yes" />
+            <Button layoutX="113.0" layoutY="64.0" mnemonicParsing="false" onAction="#no" prefHeight="32.0" prefWidth="73.0" style="-fx-font-size: 2em; -fx-background-color: #8a9a8b;" text="No" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

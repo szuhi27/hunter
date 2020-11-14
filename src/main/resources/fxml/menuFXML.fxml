@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
@@ -39,7 +38,5 @@
                 <Button fx:id="afghanB" mnemonicParsing="false" onAction="#goAfghanistan" opacity="0.0" prefHeight="540.0" prefWidth="440.0" text="afghan" />
             </children>
         </Pane>
-        <ImageView fx:id="muteIV" fitHeight="45.0" fitWidth="135.0" layoutX="1079.0" layoutY="760.0" pickOnBounds="true" preserveRatio="true" />
-        <Button fx:id="muteB" layoutX="1079.0" layoutY="759.0" mnemonicParsing="false" onAction="#mute" opacity="0.0" prefHeight="45.0" prefWidth="135.0" style="-fx-background-color: #8a9a5b; -fx-font-size: 2em; -fx-border-radius: 10em;" text="Mute" textFill="#f1ff2d" />
     </children>
 </AnchorPane>
