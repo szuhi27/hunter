@@ -29,6 +29,11 @@ public class Menu {
     @FXML
     private Pane maps;
 
+    @FXML
+    public void initialize() {
+        menuBcg.setImage(new Image(getClass().getResource("/images/menuS/menuBcg.png").toExternalForm()));
+    }
+
 
 
 
@@ -47,7 +52,7 @@ public class Menu {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/playAfghanFXML.fxml"));
         stage.setScene(new Scene(root));
         stage.show();
-        a.pause();
+
     }
 
     public void highscore(ActionEvent event) throws IOException {
@@ -56,7 +61,7 @@ public class Menu {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/highscore.fxml"));
         stage.setScene(new Scene(root));
         stage.show();
-        a.pause();
+
     }
 
     public void exitApp(ActionEvent event) {
