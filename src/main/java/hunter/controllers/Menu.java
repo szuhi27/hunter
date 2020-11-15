@@ -67,13 +67,11 @@ public class Menu {
     public void mute(ActionEvent event) {
         if (music) {
 
-            music = false;
-            a.pause();
+
             muteIV.setImage(new Image(getClass().getResource("/images/menuS/unmuteBcg.png").toExternalForm()));
         } else {
 
-            music = true;
-            a.play();
+
             muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
         }
 
