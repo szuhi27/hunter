@@ -18,7 +18,7 @@ import java.util.Random;
 public class street {
 
     @FXML
-    private Pane one, two, three, four, five, six, seven;
+    private Pane one, two, three, four, five, six, seven, nameEnter;
     @FXML
     private ImageView streetBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
     @FXML
