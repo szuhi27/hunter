@@ -55,6 +55,7 @@ public class Menu {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/playAfghanFXML.fxml"));
         stage.setScene(new Scene(root));
+        afghanButton.setImage(new Image(getClass().getResource("/images/street/afghanButton.png").toExternalForm()));
         stage.show();
 
     }
