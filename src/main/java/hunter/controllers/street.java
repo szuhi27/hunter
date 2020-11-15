@@ -35,7 +35,9 @@ public class street {
     }
 
     public void start(ActionEvent event) throws IOException {
+        nameEnter.setVisible(false);
         scoreT.setText("Score: " + score);
+        missedShots=0;
         scoreCheck();
     }
 
