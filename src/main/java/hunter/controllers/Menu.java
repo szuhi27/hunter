@@ -34,8 +34,8 @@ public class Menu {
         menuBcg.setImage(new Image(getClass().getResource("/images/menuS/menuBcg.png").toExternalForm()));
         playBcg.setImage(new Image(getClass().getResource("/images/menuS/playBcg.png").toExternalForm()));
         highscoreBcg.setImage(new Image(getClass().getResource("/images/menuS/highscoreBcg.png").toExternalForm()));
-
-    }
+        exitBcg.setImage(new Image(getClass().getResource("/images/menuS/exitBcg.png").toExternalForm()));
+            }
 
 
 
