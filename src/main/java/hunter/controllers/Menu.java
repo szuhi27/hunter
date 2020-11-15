@@ -45,6 +45,7 @@ public class Menu {
     public void Play(ActionEvent event) {
 
         buttonsVBox.setVisible(false);
+        afghanButton.setImage(new Image(getClass().getResource("/images/street/afghanButton.png").toExternalForm()));
         //button images will be here
         maps.setVisible(true);
     }
@@ -55,7 +56,7 @@ public class Menu {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/playAfghanFXML.fxml"));
         stage.setScene(new Scene(root));
-        afghanButton.setImage(new Image(getClass().getResource("/images/street/afghanButton.png").toExternalForm()));
+
         stage.show();
 
     }
