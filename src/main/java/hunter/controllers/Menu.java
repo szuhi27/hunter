@@ -33,7 +33,7 @@ public class Menu {
     public void initialize() {
         menuBcg.setImage(new Image(getClass().getResource("/images/menuS/menuBcg.png").toExternalForm()));
         playBcg.setImage(new Image(getClass().getResource("/images/menuS/playBcg.png").toExternalForm()));
-
+        highscoreBcg.setImage(new Image(getClass().getResource("/images/menuS/highscoreBcg.png").toExternalForm()));
 
     }
 
