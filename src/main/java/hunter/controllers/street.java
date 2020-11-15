@@ -18,14 +18,14 @@ import java.util.Random;
 public class street {
 
     @FXML
-    private Pane one, two, three, four, five, six, seven;
+    private Pane one, two, three, four, five, six, seven, nameEnter;
     @FXML
     private ImageView streetBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
     @FXML
     private Text scoreT;
 
     private int whichEnemy;
-    private int killed = 0, score = 0;
+    private int killed = 0, score = 0, missedShots = 0;
     private Pane thisEnemy;
 
     @FXML
@@ -35,7 +35,9 @@ public class street {
     }
 
     public void start(ActionEvent event) throws IOException {
+        nameEnter.setVisible(false);
         scoreT.setText("Score: " + score);
+        missedShots=0;
         scoreCheck();
     }
 
@@ -43,6 +45,10 @@ public class street {
         if (score < 20) {
             enemy();
         }
+    }
+
+    public void missClick(ActionEvent event) {
+        ++missedShots;
     }
 
     public  void random() {
