@@ -29,8 +29,7 @@ public class Menu {
     @FXML
     private Pane maps;
 
-    MediaPlayer a;
-    private boolean music = true;
+
 
 
     //map choosing
