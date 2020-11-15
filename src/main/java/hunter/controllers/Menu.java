@@ -32,6 +32,9 @@ public class Menu {
     @FXML
     public void initialize() {
         menuBcg.setImage(new Image(getClass().getResource("/images/menuS/menuBcg.png").toExternalForm()));
+        playBcg.setImage(new Image(getClass().getResource("/images/menuS/playBcg.png").toExternalForm()));
+
+
     }
 
 
