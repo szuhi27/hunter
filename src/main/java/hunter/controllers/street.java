@@ -25,7 +25,7 @@ public class street {
     private Text scoreT;
 
     private int whichEnemy;
-    private int killed = 0, score = 0;
+    private int killed = 0, score = 0, missedShots = 0;
     private Pane thisEnemy;
 
     @FXML
@@ -43,6 +43,10 @@ public class street {
         if (score < 20) {
             enemy();
         }
+    }
+
+    public void missClick(ActionEvent event) {
+        ++missedShots;
     }
 
     public  void random() {
