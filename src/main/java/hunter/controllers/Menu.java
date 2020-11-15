@@ -74,7 +74,7 @@ public class Menu {
         Platform.exit();
     }
 
-    public void mute(ActionEvent event) {
+    /*public void mute(ActionEvent event) {
         if (music) {
 
 
@@ -86,5 +86,5 @@ public class Menu {
         }
 
 
-    }
+    }*/
 }
