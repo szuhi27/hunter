@@ -3,7 +3,8 @@ Rendszerterv
 
 ## A rendszer célja
 
-Napjainkban rengeteg játékot megtalálhatunk az interneten, vagy vásárolhatunk amilyet szeretnénk, viszont van, hogy előfordul hogy a játékrengetegben pont azt az egyet nem találjuk amelyiket szeretnénk.A következő rendszert azért hozzuk létre mert egy üzletember felkérte a csapatot, hogy készítsünk egy olyan játékot amellyel gyerekkorában játszott. A rendszer célja egy olyan élmény nyújtása, amellyel felidézhető a retró lövöldözős játékok hangulata egyszerű fegyverhasználattal és szabályrendszerrel.
+Napjainkban rengeteg játékot megtalálhatunk az interneten, vagy vásárolhatunk amilyet szeretnénk, viszont van, hogy előfordul hogy a játékrengetegben pont azt az egyet nem találjuk amelyiket szeretnénk.A következő rendszert azért hozzuk létre mert egy üzletember felkérte a csapatot, hogy készítsünk egy olyan játékot amellyel gyerekkorában játszott. A rendszer célja egy olyan élmény nyújtása, amellyel felidézhető a retró lövöldözős játékok hangulata, egyszerű fegyverhasználattal és szabályrendszerrel.
+Tehát a cél egy nosztalgiázni vágyó számára fejlesztett lövöldözős játék.
 
 ## Projekt terv
 
@@ -22,6 +23,9 @@ A következő tervben a dátumok és a fejlesztők felsorolása történik. Font
 + A rendszerterv megírása
 + Az adatok kigyűjtése
 + Fejlesztés megkezdése
++ Fejlesztés, megbeszélések
++ Demó bemutatása
++ További fejlesztés
 + Tesztelés
 + Bemutatás
 
@@ -30,10 +34,11 @@ A következő tervben a dátumok és a fejlesztők felsorolása történik. Font
 ### Üzleti szereplők
 + A játék használója elsősorban az a személy lesz aki felkérte a csapatot az elkészítésre.
 + A programot valószínűleg a készíttető fiatalabb rokonai is használni fogják majd 
++ Tehát a felhasználók között megtalálható fiatalabb és idősebb személy is.
 
 ### Üzleti folyamatok
 
-+ A folyamat, a használat nagyon egyszerűú
++ A folyamat, a használat nagyon egyszerű
 + A program feltelepítése után indítható is a játék.
 + Egy ablakban látjuk a használható gombokat, egy Exitet mely bezárja a programot, egy Mute gombot, amellyel a háttérzenét némíthatjuk le valamit itt tudjuk kiválasztani milyen pályán szeretnénk játszani.
 + 2 pályából választhatunk.
@@ -42,6 +47,7 @@ A következő tervben a dátumok és a fejlesztők felsorolása történik. Font
 + A játék 100 pont eléréséig tart.
 + A játék végén a program idő szerint sorolja a játékosokat.
 + Neveket megadva minket is elment a Highscore táblába.
++ A Highscore táblán a 10 legjobb eredmény jelenik meg.
 + A végén lehetőségünk van kilépni vagy új játékot kezdeni.
 
 Absztrakt domain modell
