@@ -12,8 +12,10 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.media.MediaPlayer;
+import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import org.apache.commons.lang3.SystemUtils;
 
 import java.io.IOException;
 
@@ -50,6 +52,15 @@ public class HighScore {
     }
 
     private void getOS() {
+        if (SystemUtils.IS_OS_WINDOWS_10){
+            textArea.setFont(Font.font("monospace"));
+            titles.setFont(Font.font("monospace"));
+            placements.setFont(Font.font("monospace"));
+        } else if (SystemUtils.IS_OS_LINUX){
+            textArea.setFont(Font.font("FreeMono"));
+            titles.setFont(Font.font("FreeMono"));
+            placements.setFont(Font.font("FreeMono"));
+        }
     }
 
     public void menuGoGo(ActionEvent event) throws IOException {
