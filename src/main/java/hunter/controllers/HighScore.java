@@ -18,6 +18,7 @@ import javafx.stage.Stage;
 import org.apache.commons.lang3.SystemUtils;
 
 import java.io.IOException;
+import java.util.Comparator;
 
 public class HighScore {
 
@@ -69,6 +70,13 @@ public class HighScore {
             this.time = time;
             this.misses = misses;
             this.kills = kills;
+        }
+    }
+
+    static class scoreCompare implements Comparator<result> {
+        @Override
+        public int compare(result s1, result s2){
+            return s2.score - s1.score;
         }
     }
 
