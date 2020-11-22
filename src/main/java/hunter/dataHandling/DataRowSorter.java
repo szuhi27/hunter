@@ -14,5 +14,14 @@ public class DataRowSorter {
         }
     }
 
+    public static String checkMisses(int miss) {
+        if (miss > -1 && miss < 10){
+            return "       ";
+        } else if(miss > 9 && miss < 100){
+            return "      ";
+        } else {
+            return "     ";
+        }
+    }
 
 }
