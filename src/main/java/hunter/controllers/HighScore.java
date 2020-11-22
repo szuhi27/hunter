@@ -48,9 +48,6 @@ public class HighScore {
         getOS();
     }
 
-    private void music() {
-    }
-
     private void getOS() {
         if (SystemUtils.IS_OS_WINDOWS_10){
             textArea.setFont(Font.font("monospace"));
@@ -63,11 +60,26 @@ public class HighScore {
         }
     }
 
+    static class result{
+        int score,misses,kills;
+        String name,time;
+        public result( String name, int score, String time, int misses, int kills){
+            this.name = name;
+            this.score = score;
+            this.time = time;
+            this.misses = misses;
+            this.kills = kills;
+        }
+    }
+
     public void menuGoGo(ActionEvent event) throws IOException {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/menuFXML.fxml"));
         stage.setScene(new Scene(root));
         stage.show();
+    }
+
+    private void music() {
     }
 
 }
