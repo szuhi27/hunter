@@ -24,4 +24,12 @@ public class DataRowSorter {
         }
     }
 
+    public static String checkKills(int kills){
+        if(kills < 100){
+            return "      ";
+        } else {
+            return "     ";
+        }
+    }
+
 }
