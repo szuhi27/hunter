@@ -17,7 +17,10 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import org.apache.commons.lang3.SystemUtils;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Comparator;
 
 public class HighScore {
@@ -78,6 +81,28 @@ public class HighScore {
         public int compare(result s1, result s2){
             return s2.score - s1.score;
         }
+    }
+
+    public void sortScore(String map,String sortedmap) throws IOException{
+        FileReader fr = new FileReader(map);
+        BufferedReader reader = new BufferedReader(fr);
+        ArrayList<result> resultArrayList = new ArrayList<result>();
+        String currentLine = reader.readLine();
+
+        while (currentLine != null) {
+            String[] resultDetail = currentLine.split(" ");
+            String name = resultDetail[0];
+            int score = Integer.parseInt(resultDetail[1]);
+            String time = resultDetail[2];
+            int misses = Integer.parseInt(resultDetail[3]);
+            int kills = Integer.parseInt(resultDetail[4]);
+            resultArrayList.add(new result(name, score, time, misses, kills));
+            currentLine = reader.readLine();
+            isThereData = true;
+        }
+
+        reader.close();
+
     }
 
     public void menuGoGo(ActionEvent event) throws IOException {
