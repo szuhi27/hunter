@@ -30,6 +30,21 @@
             <Label fx:id="timeL" layoutX="15.0" layoutY="55.0" prefHeight="31.0" prefWidth="170.0" style="-fx-font-size: 2em;" text="Time:" />
          </children>
       </Pane>
+      <Pane fx:id="results" layoutX="382.0" layoutY="211.0" prefHeight="399.0" prefWidth="465.0" style="-fx-background-color: #8a9a5b;" visible="false">
+         <children>
+            <Text fx:id="goodJobT" layoutX="1.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 3em;" text="Good job!" textAlignment="CENTER" wrappingWidth="465.0">
+               <font>
+                  <Font name="Serif Regular" size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="83.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 2em;" text="You have earned 100 points under:" textAlignment="CENTER" wrappingWidth="296.7294921875" />
+            <Text fx:id="killedT" layoutX="47.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 2em;" text="and killed x terrorist." textAlignment="CENTER" wrappingWidth="367.7177734375" />
+            <Text fx:id="missedT" layoutX="6.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 2em;" text="missed" textAlignment="CENTER" wrappingWidth="450.0" />
+            <Text fx:id="finalTimeT" layoutX="56.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 2em;" text="finaltime" textAlignment="CENTER" wrappingWidth="350.46728515625" />
+            <Text fx:id="finalScoreT" layoutX="6.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 2em;" text="Your calculated score is:" textAlignment="CENTER" wrappingWidth="450.0" />
+            <Button layoutX="158.0" layoutY="327.0" mnemonicParsing="false" onAction="#toMenu" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #8a9a5b; -fx-font-size: 2.5em; -fx-border-radius: 10em;" text="Menu" textFill="#f1ff2d" />
+         </children>
+      </Pane>
    </children>
    <cursor>
       <Cursor fx:constant="CROSSHAIR" />
