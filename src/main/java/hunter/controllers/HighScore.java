@@ -87,7 +87,7 @@ public class HighScore {
 
         FileReader fr = new FileReader(map);
         BufferedReader reader = new BufferedReader(fr);
-        ArrayList<result> resultArrayList = new ArrayList<result>();
+        ArrayList<result> resultArrayList = new ArrayList<>();
         String currentLine = reader.readLine();
 
         while (currentLine != null) {
@@ -120,6 +120,39 @@ public class HighScore {
         reader.close();
         writer.close();
 
+    }
+
+    public void getChoice(ActionEvent event) throws IOException{
+
+        whichMap = choiceBox.getValue();
+
+        if (whichMap != null && whichMap.equals("Syrian")) {
+
+            sortScore("scoresSyria.txt");
+
+            if(isThereData){
+
+                textArea.clear();
+                setTextArea("scoresSyria.txt");
+
+            }
+
+        } else if (whichMap != null && whichMap.equals("Afghan")){
+
+            sortScore("scoresAfghan.txt");
+
+            if(isThereData){
+
+                textArea.clear();
+                setTextArea("scoresAfghan.txt");
+
+            }
+
+        }
+
+    }
+
+    private void setTextArea(String s) {
     }
 
     public void menuGoGo(ActionEvent event) throws IOException {
