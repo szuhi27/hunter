@@ -93,6 +93,7 @@
          </children>
       </Pane>
       <Button fx:id="exitB" layoutX="1095.0" layoutY="736.0" mnemonicParsing="false" onAction="#toMenu" prefHeight="45.0" prefWidth="105.0" style="-fx-background-color: #dce354; -fx-font-size: 2.5em; -fx-border-radius: 10em;" text="Exit" textFill="#f1ff2d" />
+      <Button fx:id="muteB" layoutX="1065.0" layoutY="677.0" mnemonicParsing="false" onAction="#mute" prefHeight="45.0" prefWidth="135.0" style="-fx-background-color: #8a9a5b; -fx-font-size: 2em; -fx-border-radius: 10em;" text="Mute" textFill="#f1ff2d" />
    </children>
    <cursor>
       <Cursor fx:constant="CROSSHAIR" />
