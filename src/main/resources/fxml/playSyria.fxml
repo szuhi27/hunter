@@ -15,6 +15,12 @@
       <ImageView fx:id="streetBcg" fitHeight="819.0" fitWidth="1228.0" pickOnBounds="true" preserveRatio="true" />
       <Button mnemonicParsing="false" onAction="#missClick" opacity="0.0" prefHeight="819.0" prefWidth="1228.0" text="Button" />
       <Pane fx:id="seven" layoutX="819.0" layoutY="399.0" prefHeight="150.0" prefWidth="150.0" visible="false">
+      <children>
+            <ImageView fx:id="enemySeven" fitHeight="158.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+            <Button mnemonicParsing="false" onAction="#missClick" opacity="0.0" prefHeight="150.0" prefWidth="150.0" text="missed" />
+            <Button layoutX="38.0" layoutY="43.0" mnemonicParsing="false" onAction="#body" opacity="0.0" prefHeight="107.0" prefWidth="75.0" text="body" />
+            <Button layoutX="55.0" layoutY="3.0" mnemonicParsing="false" onAction="#head" opacity="0.0" prefHeight="40.0" prefWidth="37.0" text="head" />
+         </children>
       </Pane>
       <Pane fx:id="nameEnter" layoutX="514.0" layoutY="299.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightgreen;">
          <children>
