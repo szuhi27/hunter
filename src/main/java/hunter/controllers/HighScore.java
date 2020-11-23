@@ -1,5 +1,6 @@
 package hunter.controllers;
 
+import hunter.dataHandling.DataRowSorter;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -17,9 +18,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import org.apache.commons.lang3.SystemUtils;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
 
@@ -83,13 +82,16 @@ public class HighScore {
         }
     }
 
-    public void sortScore(String map,String sortedmap) throws IOException{
+    //jócskán le kell tesztelni, múködik e hogy ugyanabba a fileba kerül visszaírásra a dolog!!!
+    public void sortScore(String map) throws IOException{
+
         FileReader fr = new FileReader(map);
         BufferedReader reader = new BufferedReader(fr);
         ArrayList<result> resultArrayList = new ArrayList<result>();
         String currentLine = reader.readLine();
 
         while (currentLine != null) {
+
             String[] resultDetail = currentLine.split(" ");
             String name = resultDetail[0];
             int score = Integer.parseInt(resultDetail[1]);
@@ -99,9 +101,24 @@ public class HighScore {
             resultArrayList.add(new result(name, score, time, misses, kills));
             currentLine = reader.readLine();
             isThereData = true;
+
+        }
+
+        resultArrayList.sort(new scoreCompare());
+        FileWriter fw = new FileWriter(map);
+        BufferedWriter writer = new BufferedWriter(fw);
+        for (result result : resultArrayList){
+
+            writer.write(result.name+ DataRowSorter.checkScore(result.score));
+            writer.write(result.score+"     ");
+            writer.write(result.time+DataRowSorter.checkMisses(result.misses));
+            writer.write(result.misses+DataRowSorter.checkKills(result.kills));
+            writer.write(result.kills+"\n");
+
         }
 
         reader.close();
+        writer.close();
 
     }
 
