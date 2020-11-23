@@ -249,6 +249,13 @@ public class HighScore {
         }
     }
 
+    public void no(ActionEvent event){
+
+        confirmPane.setVisible(false);
+        textArea.clear();
+
+    }
+
     private void clear(String scores){
 
     }
