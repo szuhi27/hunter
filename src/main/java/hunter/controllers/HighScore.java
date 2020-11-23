@@ -21,6 +21,7 @@ import org.apache.commons.lang3.SystemUtils;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.Scanner;
 
 public class HighScore {
 
@@ -152,7 +153,29 @@ public class HighScore {
 
     }
 
-    private void setTextArea(String s) {
+    private void setTextArea(String sortedMap) {
+
+        File file = new File(sortedMap);
+        int c = 1;
+        try (Scanner input = new Scanner(file)) {
+
+            while (input.hasNextLine() && c < 11 ) {
+
+                textArea.appendText(input.nextLine());
+                textArea.appendText("\n");
+                ++c;
+                if(!input.hasNextLine()){
+
+                    c = 11;
+
+                }
+            }
+        } catch (FileNotFoundException ex) {
+
+            ex.printStackTrace();
+
+        }
+
     }
 
     public void menuGoGo(ActionEvent event) throws IOException {
