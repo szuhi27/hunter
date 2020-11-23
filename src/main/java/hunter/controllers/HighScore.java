@@ -46,7 +46,7 @@ public class HighScore {
     public void initialize() {
         hsBcg.setImage(new Image(getClass().getResource("/images/menuS/menuBcg.png").toExternalForm()));
         menuButtonIV.setImage(new Image(getClass().getResource("/images/menuS/menuButtonBcg.png").toExternalForm()));
-        muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
+        //muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
         loadIV.setImage(new Image(getClass().getResource("/images/menuS/loadBcg.png").toExternalForm()));
         clearIV.setImage(new Image(getClass().getResource("/images/menuS/clearBcg.png").toExternalForm()));
         music();
@@ -187,6 +187,7 @@ public class HighScore {
         stage.show();
     }
 
+    //lambdával használjuk, meg kell nézni jó -e
     private void music() {
 
         Media med = new Media(getClass().getResource("/sounds/hsMusic.mp3").toExternalForm());
@@ -195,6 +196,23 @@ public class HighScore {
         a.setAutoPlay(true);
         a.setOnEndOfMedia(() -> a.seek(Duration.ZERO));
 
+    }
+
+    public void mute(ActionEvent event){
+
+        if (music){
+
+            music = false;
+            a.pause();
+            //muteIV.setImage(new Image(getClass().getResource("/images/menuS/unmuteBcg.png").toExternalForm()));
+
+        } else {
+
+            music = true;
+            a.play();
+            //muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
+
+        }
     }
 
 }
