@@ -19,6 +19,8 @@
       <ChoiceBox fx:id="choiceBox" layoutX="524.0" layoutY="751.0" prefHeight="39.0" prefWidth="183.0" />
       <ImageView fx:id="loadIV" fitHeight="50.0" fitWidth="100.0" layoutX="411.0" layoutY="747.0" pickOnBounds="true" preserveRatio="true" />
       <Button fx:id="choiceButton" layoutX="411.0" layoutY="746.0" mnemonicParsing="false" onAction="#getChoice" opacity="0.0" prefHeight="40.0" prefWidth="100.0" style="-fx-font-size: 2.5em; -fx-background-color: #8a9a5b;" text="Load" />
+      <ImageView fx:id="muteIV" fitHeight="54.0" fitWidth="177.0" layoutX="64.0" layoutY="745.0" pickOnBounds="true" />
+      <Button fx:id="muteB" layoutX="64.0" layoutY="745.0" mnemonicParsing="false" onAction="#mute" opacity="0.0" prefHeight="54.0" prefWidth="177.0" style="-fx-background-color: #8a9a5b; -fx-font-size: 2em; -fx-border-radius: 10em;" text="Mute" textFill="#f1ff2d" />
       <ImageView fx:id="clearIV" fitHeight="40.0" fitWidth="100.0" layoutX="721.0" layoutY="750.0" pickOnBounds="true" preserveRatio="true" />
       <Button layoutX="721.0" layoutY="751.0" mnemonicParsing="false" onAction="#clearPress" opacity="0.0" prefHeight="40.0" prefWidth="100.0" text="clear scores" />
       <Pane fx:id="confirmPane" layoutX="514.0" layoutY="91.0" prefHeight="121.0" prefWidth="200.0" style="-fx-background-color: #8a9a5b;" visible="false">
