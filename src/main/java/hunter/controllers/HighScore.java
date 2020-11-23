@@ -256,7 +256,14 @@ public class HighScore {
 
     }
 
-    private void clear(String scores){
+    private void clear(String scores) throws IOException{
+
+        FileWriter fr = new FileWriter(scores);
+        BufferedWriter writer = new BufferedWriter(fr);
+        writer.write("");
+        writer.close();
+        sortScore(scores);
+        textArea.clear();
 
     }
 
