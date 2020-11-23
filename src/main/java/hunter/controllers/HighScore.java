@@ -44,6 +44,7 @@ public class HighScore {
 
     @FXML
     public void initialize() {
+
         hsBcg.setImage(new Image(getClass().getResource("/images/menuS/menuBcg.png").toExternalForm()));
         menuButtonIV.setImage(new Image(getClass().getResource("/images/menuS/menuButtonBcg.png").toExternalForm()));
         //muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
@@ -55,33 +56,44 @@ public class HighScore {
     }
 
     private void getOS() {
+
         if (SystemUtils.IS_OS_WINDOWS_10){
+
             textArea.setFont(Font.font("monospace"));
             titles.setFont(Font.font("monospace"));
             placements.setFont(Font.font("monospace"));
+
         } else if (SystemUtils.IS_OS_LINUX){
+
             textArea.setFont(Font.font("FreeMono"));
             titles.setFont(Font.font("FreeMono"));
             placements.setFont(Font.font("FreeMono"));
+
         }
     }
 
     static class result{
+
         int score,misses,kills;
         String name,time;
         public result( String name, int score, String time, int misses, int kills){
+
             this.name = name;
             this.score = score;
             this.time = time;
             this.misses = misses;
             this.kills = kills;
+
         }
     }
 
     static class scoreCompare implements Comparator<result> {
+
         @Override
         public int compare(result s1, result s2){
+
             return s2.score - s1.score;
+
         }
     }
 
@@ -181,10 +193,12 @@ public class HighScore {
     }
 
     public void menuGoGo(ActionEvent event) throws IOException {
+
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/menuFXML.fxml"));
         stage.setScene(new Scene(root));
         stage.show();
+
     }
 
     //lambdával használjuk, meg kell nézni jó -e
