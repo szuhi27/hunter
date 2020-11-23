@@ -201,15 +201,15 @@ public class HighScore {
 
     }
 
-    //lambdával használjuk, meg kell nézni jó -e
+    //todo: fix later
     private void music() {
-
-        Media med = new Media(getClass().getResource("/sounds/hsMusic.mp3").toExternalForm());
+/*
+        Media med = new Media(getClass().getResource("/sounds/menuMusic.mp3").toExternalForm());
         a =new MediaPlayer(med);
         a.setVolume(0.8);
         a.setAutoPlay(true);
         a.setOnEndOfMedia(() -> a.seek(Duration.ZERO));
-
+*/
     }
 
     public void mute(ActionEvent event){
