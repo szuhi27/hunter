@@ -12,10 +12,12 @@ import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
+import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 import org.apache.commons.lang3.SystemUtils;
 
 import java.io.*;
@@ -186,6 +188,13 @@ public class HighScore {
     }
 
     private void music() {
+
+        Media med = new Media(getClass().getResource("/sounds/hsMusic.mp3").toExternalForm());
+        a =new MediaPlayer(med);
+        a.setVolume(0.8);
+        a.setAutoPlay(true);
+        a.setOnEndOfMedia(() -> a.seek(Duration.ZERO));
+
     }
 
 }
