@@ -224,7 +224,7 @@ public class HighScore {
 
             music = true;
             a.play();
-            //muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
+            muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
 
         }
     }
