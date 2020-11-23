@@ -235,5 +235,22 @@ public class HighScore {
 
     }
 
+    public void yes(ActionEvent event) throws IOException {
+
+        confirmPane.setVisible(false);
+        if(whichMap != null && whichMap.equals("Afghan")){
+
+            clear("scoresAfghan.txt");
+
+        } else if (whichMap != null && whichMap.equals("Syrian")){
+
+            clear("scoresSyria.txt");
+
+        }
+    }
+
+    private void clear(String scores){
+
+    }
 
 }
