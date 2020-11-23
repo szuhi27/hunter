@@ -30,6 +30,14 @@
             <Button layoutX="55.0" layoutY="3.0" mnemonicParsing="false" onAction="#head" opacity="0.0" prefHeight="40.0" prefWidth="37.0" text="head" />
          </children>
       </Pane>
+      <Pane fx:id="five" layoutX="721.0" layoutY="285.0" prefHeight="150.0" prefWidth="150.0" visible="false">
+         <children>
+            <ImageView fx:id="enemyFive" fitHeight="158.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+            <Button mnemonicParsing="false" onAction="#missClick" opacity="0.0" prefHeight="150.0" prefWidth="150.0" text="missed" />
+            <Button layoutX="38.0" layoutY="43.0" mnemonicParsing="false" onAction="#body" opacity="0.0" prefHeight="107.0" prefWidth="75.0" text="body" />
+            <Button layoutX="55.0" layoutY="3.0" mnemonicParsing="false" onAction="#head" opacity="0.0" prefHeight="40.0" prefWidth="37.0" text="head" />
+         </children>
+      </Pane>
       <Pane fx:id="nameEnter" layoutX="514.0" layoutY="299.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightgreen;">
          <children>
             <Text layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 2em;" text="Enter your name!" textAlignment="CENTER" wrappingWidth="200.0" />
