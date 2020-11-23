@@ -10,7 +10,7 @@ public class HunterApp extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(HunterApp.class.getResource("/fxml/menu.fxml"));
+        Parent root = FXMLLoader.load(HunterApp.class.getResource("/fxml/menuFXML.fxml"));
         primaryStage.setTitle("Hunter");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
