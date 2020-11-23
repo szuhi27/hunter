@@ -215,4 +215,11 @@ public class HighScore {
         }
     }
 
+    public void clearPress(ActionEvent event) {
+
+        confirmPane.setVisible(true);
+
+    }
+
+
 }
