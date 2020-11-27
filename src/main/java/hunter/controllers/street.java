@@ -11,6 +11,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
@@ -36,6 +37,8 @@ public class street {
     private Label timeL;
     @FXML
     private Button exitB;
+    @FXML
+    private TextField nameTF;
 
     private int whichEnemy;
     private int killed = 0, score = 0, missedShots = 0;
@@ -93,6 +96,7 @@ public class street {
         ingameScore.setVisible(false);
         exitB.setVisible(false);
         results.setVisible(true);
+
     }
 
     public void missClick(ActionEvent event) {
