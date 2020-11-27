@@ -38,7 +38,7 @@ public class street {
     @FXML
     public void initialize(){
         streetBcg.setImage(new Image(getClass().getResource("/images/street/bcgStreet.png").toExternalForm()));
-
+        music();
     }
 
     private void music() {
