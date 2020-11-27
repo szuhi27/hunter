@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -28,6 +29,7 @@ public class street {
     private int killed = 0, score = 0, missedShots = 0;
     private Pane thisEnemy;
     private long start, millisElapsed;
+    private MediaPlayer a;
 
     @FXML
     public void initialize(){
