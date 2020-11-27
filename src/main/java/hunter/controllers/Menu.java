@@ -44,6 +44,11 @@ public class Menu {
         a =new MediaPlayer(med);
         a.setVolume(0.8);
         a.setAutoPlay(true);
+        a.setOnEndOfMedia(new Runnable() {
+            public void run() {
+                a.seek(Duration.ZERO);
+            }
+        });
     }
 
 
