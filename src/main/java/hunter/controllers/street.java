@@ -129,6 +129,7 @@ public class street {
         scoreT.setText("Score: " + score);
         thisEnemy.setVisible(false);
         scoreCheck();
+        shot();
     }
 
     public void toMenu(ActionEvent event) throws IOException {
