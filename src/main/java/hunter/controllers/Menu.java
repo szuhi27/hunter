@@ -41,6 +41,9 @@ public class Menu {
 
     private void music(){
         Media med = new Media(getClass().getResource("/sounds/menuMusic.mp3").toExternalForm());
+        a =new MediaPlayer(med);
+        a.setVolume(0.8);
+        a.setAutoPlay(true);
     }
 
 
