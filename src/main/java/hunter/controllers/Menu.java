@@ -23,7 +23,7 @@ import java.io.IOException;
 public class Menu {
 
     @FXML
-    private ImageView menuBcg, playBcg, highscoreBcg, exitBcg, afghanButton, muteIV;
+    private ImageView menuBcg, playBcg, highscoreBcg, exitBcg, afghanButton, syrianButton ,muteIV;
     @FXML
     private VBox buttonsVBox;
     @FXML
@@ -35,8 +35,11 @@ public class Menu {
         playBcg.setImage(new Image(getClass().getResource("/images/menuS/playBcg.png").toExternalForm()));
         highscoreBcg.setImage(new Image(getClass().getResource("/images/menuS/highscoreBcg.png").toExternalForm()));
         exitBcg.setImage(new Image(getClass().getResource("/images/menuS/exitBcg.png").toExternalForm()));
-        //muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
+        muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
+        music();
     }
+
+    private void music(){}
 
 
 
