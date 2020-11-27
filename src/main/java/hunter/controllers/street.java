@@ -66,6 +66,7 @@ public class street {
         scoreT.setText("Score: " + score);
         missedShots=0;
         scoreCheck();
+        timer();
     }
 
     private void timer() {
