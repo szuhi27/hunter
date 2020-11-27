@@ -9,6 +9,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -26,13 +27,15 @@ import java.util.Random;
 public class street {
 
     @FXML
-    private Pane one, two, three, four, five, six, seven, nameEnter;
+    private Pane one, two, three, four, five, six, seven, nameEnter, ingameScore, results;
     @FXML
     private ImageView streetBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
     @FXML
     private Text scoreT;
     @FXML
     private Label timeL;
+    @FXML
+    private Button exitB;
 
     private int whichEnemy;
     private int killed = 0, score = 0, missedShots = 0;
@@ -87,7 +90,7 @@ public class street {
     }
 
     public void win() throws IOException{
-        
+
     }
 
     public void missClick(ActionEvent event) {
