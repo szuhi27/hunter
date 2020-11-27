@@ -126,6 +126,7 @@ public class street {
 
     public void body(ActionEvent event) throws IOException{
         ++score;
+        ++killed;
         scoreT.setText("Score: " + score);
         thisEnemy.setVisible(false);
         scoreCheck();
