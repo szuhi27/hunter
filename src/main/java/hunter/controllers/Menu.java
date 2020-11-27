@@ -76,6 +76,9 @@ public class Menu {
     public void goSyria(ActionEvent event) throws IOException{
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/playSyria.fxml"));
+        stage.setScene(new Scene(root));
+        stage.show();
+        a.pause();
     }
 
 
