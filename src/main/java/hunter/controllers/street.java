@@ -91,7 +91,7 @@ public class street {
         if (score < 100) {
             enemy();
         } else {
-            win(); 
+            win();
         }
     }
 
@@ -147,5 +147,9 @@ public class street {
         terrorist[whichEnemy].setImage(new Image(getClass().getResource("/images/street/terrorist.png").toExternalForm()));
         thisEnemy.setVisible(true);
 
+    }
+
+    private void shot(){
+        
     }
 }
