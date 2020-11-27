@@ -39,7 +39,9 @@ public class Menu {
         music();
     }
 
-    private void music(){}
+    private void music(){
+        Media med = new Media(getClass().getResource("/sounds/menuMusic.mp3").toExternalForm());
+    }
 
 
 
