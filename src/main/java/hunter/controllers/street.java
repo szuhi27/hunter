@@ -30,6 +30,8 @@ public class street {
     private Pane thisEnemy;
     private long start, millisElapsed;
     private MediaPlayer a;
+    private boolean music=true;
+
 
     @FXML
     public void initialize(){
