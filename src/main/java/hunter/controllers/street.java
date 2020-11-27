@@ -1,5 +1,6 @@
 package hunter.controllers;
 
+import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
@@ -73,6 +74,7 @@ public class street {
             millisElapsed = System.currentTimeMillis() - start;
             timeL.setText(DurationFormatUtils.formatDuration(millisElapsed, "mm:ss"));
         }), new KeyFrame(Duration.seconds(1)));
+        timeline.setCycleCount(Animation.INDEFINITE);
 
     }
 
