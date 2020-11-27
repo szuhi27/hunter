@@ -90,7 +90,9 @@ public class street {
     }
 
     public void win() throws IOException{
-
+        ingameScore.setVisible(false);
+        exitB.setVisible(false);
+        results.setVisible(true);
     }
 
     public void missClick(ActionEvent event) {
