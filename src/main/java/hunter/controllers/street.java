@@ -43,6 +43,7 @@ public class street {
     private void music() {
         Media med = new Media(getClass().getResource("/sounds/streetMusic.mp3").toExternalForm());
         a = new MediaPlayer(med);
+        a.setVolume(0.6);
     }
 
 
