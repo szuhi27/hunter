@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
@@ -26,6 +27,8 @@ public class street {
     private ImageView streetBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
     @FXML
     private Text scoreT;
+    @FXML
+    private Label timeL;
 
     private int whichEnemy;
     private int killed = 0, score = 0, missedShots = 0;
@@ -63,6 +66,7 @@ public class street {
 
     private void timer() {
         start = System.currentTimeMillis();
+
     }
 
     public void scoreCheck() throws IOException {
