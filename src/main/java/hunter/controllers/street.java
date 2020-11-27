@@ -32,7 +32,7 @@ public class street {
     @FXML
     private ImageView streetBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
     @FXML
-    private Text scoreT;
+    private Text scoreT, killedT, missedT, finalTimeT, goodJobT, finalScoreT;
     @FXML
     private Label timeL;
     @FXML
