@@ -29,6 +29,9 @@ public class Menu {
     @FXML
     private Pane maps;
 
+    MediaPlayer a;
+    private boolean music=true;
+
     @FXML
     public void initialize() {
         menuBcg.setImage(new Image(getClass().getResource("/images/menuS/menuBcg.png").toExternalForm()));
@@ -99,12 +102,12 @@ public class Menu {
 
     public void mute(ActionEvent event) {
         if (music) {
-
-
+            music = false;
+            a.pause();
             muteIV.setImage(new Image(getClass().getResource("/images/menuS/unmuteBcg.png").toExternalForm()));
         } else {
-
-
+            music = true;
+            a.play();
             muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
         }
 
