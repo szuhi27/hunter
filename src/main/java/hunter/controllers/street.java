@@ -151,6 +151,10 @@ public class street {
         a.pause();
     }
 
+    public void mute(ActionEvent event){
+        
+    }
+
     public void enemy() {
         random();
         Pane[] enemies = {one, two, three, four, five, six, seven};
