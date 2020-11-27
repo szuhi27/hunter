@@ -62,7 +62,7 @@ public class Menu {
 
         buttonsVBox.setVisible(false);
         afghanButton.setImage(new Image(getClass().getResource("/images/street/afghanButton.png").toExternalForm()));
-        syrianButton.setImage(new Image(getClass().getResource("/images/syria/syriaButton.png").toExternalForm()));
+        //syrianButton.setImage(new Image(getClass().getResource("/images/syria/syriaButton.png").toExternalForm()));
         maps.setVisible(true);
     }
 
