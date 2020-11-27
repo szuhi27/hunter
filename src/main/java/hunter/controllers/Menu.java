@@ -88,6 +88,7 @@ public class Menu {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/highscore.fxml"));
         stage.setScene(new Scene(root));
         stage.show();
+        a.pause();
 
     }
 
@@ -96,7 +97,7 @@ public class Menu {
         Platform.exit();
     }
 
-    /*public void mute(ActionEvent event) {
+    public void mute(ActionEvent event) {
         if (music) {
 
 
@@ -108,5 +109,5 @@ public class Menu {
         }
 
 
-    }*/
+    }
 }
