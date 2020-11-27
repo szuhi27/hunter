@@ -1,5 +1,6 @@
 package hunter.controllers;
 
+import hunter.dataHandling.GameplayData;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -96,6 +97,12 @@ public class street {
         ingameScore.setVisible(false);
         exitB.setVisible(false);
         results.setVisible(true);
+        String name = GameplayData.getName(nameTF);
+        goodJobT.setText("Good job " + name + "!");
+        finalTimeT.setText(DurationFormatUtils.formatDuration(millisElapsed, "mm:ss"));
+        String finalTimeSecT = (DurationFormatUtils.formatDuration(millisElapsed, "ss"));
+        killedT.setText("and killed " + killed + " terrorists,");
+        missedT.setText(GameplayData.missedText(missedShots));
 
     }
 
