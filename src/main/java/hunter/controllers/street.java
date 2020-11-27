@@ -134,7 +134,12 @@ public class street {
     }
 
     public void head(ActionEvent event) throws IOException {
-        
+        shot();
+        score = score + 2;
+        ++killed;
+        scoreT.setText("Score: " + score);
+        thisEnemy.setVisible(false);
+        scoreCheck();
     }
 
     public void toMenu(ActionEvent event) throws IOException {
