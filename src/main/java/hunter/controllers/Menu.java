@@ -73,6 +73,9 @@ public class Menu {
 
     }
 
+    public void goSyria(ActionEvent event) throws IOException{}
+
+
     public void highscore(ActionEvent event) throws IOException {
 
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
