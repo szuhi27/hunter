@@ -39,6 +39,10 @@ public class street {
 
     }
 
+    private void music() {
+    }
+
+
     public void start(ActionEvent event) throws IOException {
         nameEnter.setVisible(false);
         scoreT.setText("Score: " + score);
