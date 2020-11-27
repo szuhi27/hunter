@@ -1,5 +1,7 @@
 package hunter.controllers;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -15,6 +17,7 @@ import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import org.apache.commons.lang3.time.DurationFormatUtils;
 
 import java.io.IOException;
 import java.util.Random;
@@ -66,6 +69,10 @@ public class street {
 
     private void timer() {
         start = System.currentTimeMillis();
+        Timeline timeline = new Timeline(new KeyFrame(Duration.ZERO, e -> {
+            millisElapsed = System.currentTimeMillis() - start;
+            timeL.setText(DurationFormatUtils.formatDuration(millisElapsed, "mm:ss"));
+        }), new KeyFrame(Duration.seconds(1)));
 
     }
 
