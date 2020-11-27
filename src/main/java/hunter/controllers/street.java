@@ -62,7 +62,7 @@ public class street {
     }
 
     private void timer() {
-        
+        start = System.currentTimeMillis();
     }
 
     public void scoreCheck() throws IOException {
