@@ -44,6 +44,7 @@ public class street {
         Media med = new Media(getClass().getResource("/sounds/streetMusic.mp3").toExternalForm());
         a = new MediaPlayer(med);
         a.setVolume(0.6);
+        a.setAutoPlay(true);
     }
 
 
