@@ -148,7 +148,7 @@ public class street {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/menuFXML.fxml"));
         stage.setScene(new Scene(root));
         stage.show();
-
+        a.pause();
     }
 
     public void enemy() {
