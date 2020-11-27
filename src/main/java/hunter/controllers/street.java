@@ -61,6 +61,10 @@ public class street {
         scoreCheck();
     }
 
+    private void timer() {
+        
+    }
+
     public void scoreCheck() throws IOException {
         if (score < 20) {
             enemy();
