@@ -37,7 +37,7 @@ public class street {
     @FXML
     private Label timeL;
     @FXML
-    private Button exitB;
+    private Button exitB, muteB;
     @FXML
     private TextField nameTF;
 
@@ -152,7 +152,15 @@ public class street {
     }
 
     public void mute(ActionEvent event){
-        
+        if (music){
+            music = false;
+            a.pause();
+            muteB.setText("Unmute");
+        } else {
+            music = true;
+            a.play();
+            muteB.setText("Mute");
+        }
     }
 
     public void enemy() {
