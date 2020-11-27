@@ -86,6 +86,10 @@ public class street {
         }
     }
 
+    public void win() throws IOException{
+        
+    }
+
     public void missClick(ActionEvent event) {
         ++missedShots;
     }
