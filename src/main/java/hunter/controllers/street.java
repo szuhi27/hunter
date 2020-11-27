@@ -90,6 +90,8 @@ public class street {
     public void scoreCheck() throws IOException {
         if (score < 100) {
             enemy();
+        } else {
+            win(); 
         }
     }
 
