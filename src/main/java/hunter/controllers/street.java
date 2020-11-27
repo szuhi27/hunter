@@ -133,6 +133,10 @@ public class street {
         shot();
     }
 
+    public void head(ActionEvent event) throws IOException {
+        
+    }
+
     public void toMenu(ActionEvent event) throws IOException {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/menuFXML.fxml"));
