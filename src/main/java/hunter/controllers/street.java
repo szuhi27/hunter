@@ -113,6 +113,7 @@ public class street {
 
     public void missClick(ActionEvent event) {
         ++missedShots;
+        shot();
     }
 
     public  void random() {
