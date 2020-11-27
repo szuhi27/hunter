@@ -27,6 +27,7 @@ public class street {
     private int whichEnemy;
     private int killed = 0, score = 0, missedShots = 0;
     private Pane thisEnemy;
+    private long start, millisElapsed;
 
     @FXML
     public void initialize(){
