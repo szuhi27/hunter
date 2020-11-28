@@ -174,4 +174,16 @@ public class syria {
         stage.show();
         a.pause();
     }
+
+    public void mute(ActionEvent event){
+        if (music){
+            music = false;
+            a.pause();
+            muteB.setText("Unmute");
+        } else {
+            music = true;
+            a.play();
+            muteB.setText("Mute");
+        }
+    }
 }
