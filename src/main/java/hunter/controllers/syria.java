@@ -76,4 +76,13 @@ public class syria {
         timeline.setCycleCount(Animation.INDEFINITE);
         timeline.play();
     }
+
+    public void scoreCheck() throws IOException {
+        if (score < 100) {
+            enemy();
+        } else {
+            win();
+
+        }
+    }
 }
