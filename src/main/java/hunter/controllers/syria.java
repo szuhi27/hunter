@@ -18,6 +18,7 @@ import javafx.util.Duration;
 import org.apache.commons.lang3.time.DurationFormatUtils;
 
 import java.io.IOException;
+import java.util.Random;
 
 public class syria {
 
@@ -100,5 +101,14 @@ public class syria {
         }
         thisEnemy.setVisible(true);
 
+    }
+
+    public void random() {
+        int lastEnemy = whichEnemy;
+        Random random = new Random();
+        whichEnemy = random.nextInt(7);
+        if (whichEnemy == lastEnemy){
+            random();
+        }
     }
 }
