@@ -26,20 +26,20 @@ import org.apache.commons.lang3.time.DurationFormatUtils;
 import java.io.IOException;
 import java.util.Random;
 
-public class street {
+public class syria {
 
     @FXML
-    private Pane one, two, three, four, five, six, seven, nameEnter, ingameScore, results;
-    @FXML
-    private ImageView streetBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
+    private Pane one, two, three, four, five, six, seven, nameEnter, results, ingameScore;
     @FXML
     private Text scoreT, killedT, missedT, finalTimeT, goodJobT, finalScoreT;
     @FXML
     private Label timeL;
     @FXML
+    private TextField nameTF;
+    @FXML
     private Button exitB, muteB;
     @FXML
-    private TextField nameTF;
+    private ImageView syriaBcg,enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven;
 
     private int whichEnemy;
     private int killed = 0, score = 0, missedShots = 0;
@@ -48,25 +48,23 @@ public class street {
     private MediaPlayer a;
     private boolean music=true;
 
-
-    @FXML
     public void initialize(){
-        streetBcg.setImage(new Image(getClass().getResource("/images/street/bcgStreet.png").toExternalForm()));
+        syriaBcg.setImage(new Image(getClass().getResource("/images/syria/syria.png").toExternalForm()));
         music();
     }
 
     private void music() {
-        Media med = new Media(getClass().getResource("/sounds/streetMusic.mp3").toExternalForm());
+        Media med = new Media(getClass().getResource("/sounds/syriaMusic.mp3").toExternalForm());
         a = new MediaPlayer(med);
-        a.setVolume(0.6);
+        a.setVolume(0.4);
         a.setAutoPlay(true);
         a.setOnEndOfMedia(new Runnable() {
             public void run() {
                 a.seek(Duration.ZERO);
             }
         });
-    }
 
+    }
 
     public void start(ActionEvent event) throws IOException {
         nameEnter.setVisible(false);
@@ -84,7 +82,6 @@ public class street {
         }), new KeyFrame(Duration.seconds(1)));
         timeline.setCycleCount(Animation.INDEFINITE);
         timeline.play();
-
     }
 
     public void scoreCheck() throws IOException {
@@ -92,46 +89,62 @@ public class street {
             enemy();
         } else {
             win();
+
         }
     }
 
-    public void win() throws IOException{
-        ingameScore.setVisible(false);
-        exitB.setVisible(false);
-        results.setVisible(true);
-        String name = GameplayData.getName(nameTF);
-        goodJobT.setText("Good job " + name + "!");
-        finalTimeT.setText(DurationFormatUtils.formatDuration(millisElapsed, "mm:ss"));
-        String finalTimeSecT = (DurationFormatUtils.formatDuration(millisElapsed, "ss"));
-        killedT.setText("and killed " + killed + " terrorists,");
-        missedT.setText(GameplayData.missedText(missedShots));
-        int finalScore = GameplayData.calculateScore(finalTimeSecT,score,killed,missedShots);
-        finalScoreT.setText("Your calculated score is: " + finalScore);
-        GameplayData.storeScore("scoresAfghan.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
+    public void enemy() {
+        random();
+        Pane[] enemies = {one, two, three, four, five, six, seven};
+        ImageView[] terrorist = {enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven};
+        thisEnemy = enemies[whichEnemy];
+
+        if(whichEnemy==6) {
+            enemySeven.setImage(new Image(getClass().getResource("/images/syria/terroristWalk.png").toExternalForm()));
+        } else if (whichEnemy==0 || whichEnemy==1) {
+            terrorist[whichEnemy].setImage(new Image(getClass().getResource("/images/syria/terroristStanding.png").toExternalForm()));
+        } else {
+            terrorist[whichEnemy].setImage(new Image(getClass().getResource("/images/syria/terroristPistol.png").toExternalForm()));
+        }
+        thisEnemy.setVisible(true);
 
     }
 
-    public void missClick(ActionEvent event) {
-        ++missedShots;
-        shot();
-    }
-
-    public  void random() {
+    public void random() {
         int lastEnemy = whichEnemy;
         Random random = new Random();
         whichEnemy = random.nextInt(7);
+
         if (whichEnemy == lastEnemy){
             random();
         }
     }
 
-    public void body(ActionEvent event) throws IOException{
+    public void win() throws IOException {
+        ingameScore.setVisible(false);
+        exitB.setVisible(false);
+        results.setVisible(true);
+
+        String name = GameplayData.getName(nameTF);
+        goodJobT.setText("Good job " + name + "!");
+        finalTimeT.setText(DurationFormatUtils.formatDuration(millisElapsed, "mm:ss"));
+
+        String finalTimeSecT = (DurationFormatUtils.formatDuration(millisElapsed, "ss"));
+        killedT.setText("and killed " + killed + " terrorists,");
+        missedT.setText(GameplayData.missedText(missedShots));
+
+        int finalScore = GameplayData.calculateScore(finalTimeSecT, score, killed, missedShots);
+        finalScoreT.setText("Your calculated score is: " + finalScore);
+        GameplayData.storeScore("scoresSyria.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
+    }
+
+    public void body(ActionEvent event) throws IOException {
+        shot();
         ++score;
         ++killed;
         scoreT.setText("Score: " + score);
         thisEnemy.setVisible(false);
         scoreCheck();
-        shot();
     }
 
     public void head(ActionEvent event) throws IOException {
@@ -141,6 +154,17 @@ public class street {
         scoreT.setText("Score: " + score);
         thisEnemy.setVisible(false);
         scoreCheck();
+    }
+
+    public void missClick(ActionEvent event) {
+        ++missedShots;
+        shot();
+    }
+
+    private void shot(){
+        Media med = new Media(getClass().getResource("/sounds/shot.mp3").toExternalForm());
+        MediaPlayer shot = new MediaPlayer(med);
+        shot.play();
     }
 
     public void toMenu(ActionEvent event) throws IOException {
@@ -161,21 +185,5 @@ public class street {
             a.play();
             muteB.setText("Mute");
         }
-    }
-
-    public void enemy() {
-        random();
-        Pane[] enemies = {one, two, three, four, five, six, seven};
-        ImageView[] terrorist = {enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven};
-        thisEnemy = enemies[whichEnemy];
-        terrorist[whichEnemy].setImage(new Image(getClass().getResource("/images/street/terrorist.png").toExternalForm()));
-        thisEnemy.setVisible(true);
-
-    }
-
-    private void shot(){
-        Media med = new Media(getClass().getResource("/sounds/shot.mp3").toExternalForm());
-        MediaPlayer shot = new MediaPlayer(med);
-        shot.play();
     }
 }
