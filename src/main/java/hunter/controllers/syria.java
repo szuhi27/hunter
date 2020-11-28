@@ -93,7 +93,7 @@ public class syria {
         Pane[] enemies = {one, two, three, four, five, six, seven};
         ImageView[] terrorist = {enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven};
         thisEnemy = enemies[whichEnemy];
-        
+
         if(whichEnemy==6) {
             enemySeven.setImage(new Image(getClass().getResource("/images/syria/terroristWalk.png").toExternalForm()));
         } else if (whichEnemy==0 || whichEnemy==1) {
@@ -131,5 +131,14 @@ public class syria {
         int finalScore = GameplayData.calculateScore(finalTimeSecT, score, killed, missedShots);
         finalScoreT.setText("Your calculated score is: " + finalScore);
         GameplayData.storeScore("scoresSyria.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
+    }
+
+    public void body(ActionEvent event) throws IOException {
+        shot();
+        ++score;
+        ++killed;
+        scoreT.setText("Score: " + score);
+        thisEnemy.setVisible(false);
+        scoreCheck();
     }
 }
