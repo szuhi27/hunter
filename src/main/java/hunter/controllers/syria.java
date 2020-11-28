@@ -1,5 +1,8 @@
 package hunter.controllers;
 
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -12,6 +15,7 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
+import org.apache.commons.lang3.time.DurationFormatUtils;
 
 import java.io.IOException;
 
@@ -61,5 +65,15 @@ public class syria {
         missedShots=0;
         scoreCheck();
         timer();
+    }
+
+    private void timer() {
+        start = System.currentTimeMillis();
+        Timeline timeline = new Timeline(new KeyFrame(Duration.ZERO, e -> {
+            millisElapsed = System.currentTimeMillis() - start;
+            timeL.setText(DurationFormatUtils.formatDuration(millisElapsed, "mm:ss"));
+        }), new KeyFrame(Duration.seconds(1)));
+        timeline.setCycleCount(Animation.INDEFINITE);
+        timeline.play();
     }
 }
