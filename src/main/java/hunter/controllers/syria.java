@@ -1,5 +1,6 @@
 package hunter.controllers;
 
+import hunter.dataHandling.GameplayData;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -110,5 +111,20 @@ public class syria {
         if (whichEnemy == lastEnemy){
             random();
         }
+    }
+
+    public void win() throws IOException{
+        ingameScore.setVisible(false);
+        exitB.setVisible(false);
+        results.setVisible(true);
+        String name = GameplayData.getName(nameTF);
+        goodJobT.setText("Good job " + name + "!");
+        finalTimeT.setText(DurationFormatUtils.formatDuration(millisElapsed, "mm:ss"));
+        String finalTimeSecT = (DurationFormatUtils.formatDuration(millisElapsed, "ss"));
+        killedT.setText("and killed " + killed + " terrorists,");
+        missedT.setText(GameplayData.missedText(missedShots));
+        int finalScore = GameplayData.calculateScore(finalTimeSecT, score, killed, missedShots);
+        finalScoreT.setText("Your calculated score is: " + finalScore);
+        GameplayData.storeScore("scoresSyria.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
     }
 }
