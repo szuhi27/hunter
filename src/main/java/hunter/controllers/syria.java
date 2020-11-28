@@ -155,4 +155,10 @@ public class syria {
         ++missedShots;
         shot();
     }
+
+    private void shot(){
+        Media med = new Media(getClass().getResource("/sounds/shot.mp3").toExternalForm());
+        MediaPlayer shot = new MediaPlayer(med);
+        shot.play();
+    }
 }
