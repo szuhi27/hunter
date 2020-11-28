@@ -7,8 +7,10 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
+import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
+import javafx.util.Duration;
 
 public class syria {
 
@@ -35,5 +37,18 @@ public class syria {
     public void initialize(){
         syriaBcg.setImage(new Image(getClass().getResource("/images/syria/syria.png").toExternalForm()));
         music();
+    }
+
+    private void music() {
+        Media med = new Media(getClass().getResource("/sounds/syriaMusic.mp3").toExternalForm());
+        a = new MediaPlayer(med);
+        a.setVolume(0.4);
+        a.setAutoPlay(true);
+        a.setOnEndOfMedia(new Runnable() {
+            public void run() {
+                a.seek(Duration.ZERO);
+            }
+        });
+
     }
 }
