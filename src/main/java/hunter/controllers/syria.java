@@ -141,4 +141,13 @@ public class syria {
         thisEnemy.setVisible(false);
         scoreCheck();
     }
+
+    public void head(ActionEvent event) throws IOException {
+        shot();
+        score = score + 2;
+        ++killed;
+        scoreT.setText("Score: " + score);
+        thisEnemy.setVisible(false);
+        scoreCheck();
+    }
 }
