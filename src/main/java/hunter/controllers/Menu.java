@@ -23,11 +23,14 @@ import java.io.IOException;
 public class Menu {
 
     @FXML
-    private ImageView menuBcg, playBcg, highscoreBcg, exitBcg, afghanButton, muteIV;
+    private ImageView menuBcg, playBcg, highscoreBcg, exitBcg, afghanButton, syrianButton ,muteIV;
     @FXML
     private VBox buttonsVBox;
     @FXML
     private Pane maps;
+
+    MediaPlayer a;
+    private boolean music=true;
 
     @FXML
     public void initialize() {
@@ -35,7 +38,20 @@ public class Menu {
         playBcg.setImage(new Image(getClass().getResource("/images/menuS/playBcg.png").toExternalForm()));
         highscoreBcg.setImage(new Image(getClass().getResource("/images/menuS/highscoreBcg.png").toExternalForm()));
         exitBcg.setImage(new Image(getClass().getResource("/images/menuS/exitBcg.png").toExternalForm()));
-        //muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
+        muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
+        music();
+    }
+
+    private void music(){
+        Media med = new Media(getClass().getResource("/sounds/menuMusic.mp3").toExternalForm());
+        a =new MediaPlayer(med);
+        a.setVolume(0.8);
+        a.setAutoPlay(true);
+        a.setOnEndOfMedia(new Runnable() {
+            public void run() {
+                a.seek(Duration.ZERO);
+            }
+        });
     }
 
 
@@ -46,7 +62,7 @@ public class Menu {
 
         buttonsVBox.setVisible(false);
         afghanButton.setImage(new Image(getClass().getResource("/images/street/afghanButton.png").toExternalForm()));
-        //button images will be here
+        //syrianButton.setImage(new Image(getClass().getResource("/images/syria/syriaButton.png").toExternalForm()));
         maps.setVisible(true);
     }
 
@@ -60,12 +76,22 @@ public class Menu {
 
     }
 
+    public void goSyria(ActionEvent event) throws IOException{
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/playSyria.fxml"));
+        stage.setScene(new Scene(root));
+        stage.show();
+        a.pause();
+    }
+
+
     public void highscore(ActionEvent event) throws IOException {
 
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/highscore.fxml"));
         stage.setScene(new Scene(root));
         stage.show();
+        a.pause();
 
     }
 
@@ -74,17 +100,17 @@ public class Menu {
         Platform.exit();
     }
 
-    /*public void mute(ActionEvent event) {
+    public void mute(ActionEvent event) {
         if (music) {
-
-
+            music = false;
+            a.pause();
             muteIV.setImage(new Image(getClass().getResource("/images/menuS/unmuteBcg.png").toExternalForm()));
         } else {
-
-
+            music = true;
+            a.play();
             muteIV.setImage(new Image(getClass().getResource("/images/menuS/muteBcg.png").toExternalForm()));
         }
 
 
-    }*/
+    }
 }
