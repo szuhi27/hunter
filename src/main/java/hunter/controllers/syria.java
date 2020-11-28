@@ -150,4 +150,9 @@ public class syria {
         thisEnemy.setVisible(false);
         scoreCheck();
     }
+
+    public void missClick(ActionEvent event) {
+        ++missedShots;
+        shot();
+    }
 }
