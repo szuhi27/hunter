@@ -113,16 +113,19 @@ public class syria {
         }
     }
 
-    public void win() throws IOException{
+    public void win() throws IOException {
         ingameScore.setVisible(false);
         exitB.setVisible(false);
         results.setVisible(true);
+
         String name = GameplayData.getName(nameTF);
         goodJobT.setText("Good job " + name + "!");
         finalTimeT.setText(DurationFormatUtils.formatDuration(millisElapsed, "mm:ss"));
+
         String finalTimeSecT = (DurationFormatUtils.formatDuration(millisElapsed, "ss"));
         killedT.setText("and killed " + killed + " terrorists,");
         missedT.setText(GameplayData.missedText(missedShots));
+
         int finalScore = GameplayData.calculateScore(finalTimeSecT, score, killed, missedShots);
         finalScoreT.setText("Your calculated score is: " + finalScore);
         GameplayData.storeScore("scoresSyria.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
