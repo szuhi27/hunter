@@ -1,5 +1,6 @@
 package hunter.controllers;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -11,6 +12,8 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
+
+import java.io.IOException;
 
 public class syria {
 
@@ -50,5 +53,13 @@ public class syria {
             }
         });
 
+    }
+
+    public void start(ActionEvent event) throws IOException {
+        nameEnter.setVisible(false);
+        scoreT.setText("Score: " + score);
+        missedShots=0;
+        scoreCheck();
+        timer();
     }
 }
