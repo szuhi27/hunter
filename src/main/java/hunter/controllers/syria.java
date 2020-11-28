@@ -85,4 +85,20 @@ public class syria {
 
         }
     }
+
+    public void enemy() {
+        random();
+        Pane[] enemies = {one, two, three, four, five, six, seven};
+        ImageView[] terrorist = {enemyOne,enemyTwo,enemyThree,enemyFour,enemyFive,enemySix,enemySeven};
+        thisEnemy = enemies[whichEnemy];
+        if(whichEnemy==6) {
+            enemySeven.setImage(new Image(getClass().getResource("/images/syria/terroristWalk.png").toExternalForm()));
+        } else if (whichEnemy==0 || whichEnemy==1) {
+            terrorist[whichEnemy].setImage(new Image(getClass().getResource("/images/syria/terroristStanding.png").toExternalForm()));
+        } else {
+            terrorist[whichEnemy].setImage(new Image(getClass().getResource("/images/syria/terroristPistol.png").toExternalForm()));
+        }
+        thisEnemy.setVisible(true);
+
+    }
 }
