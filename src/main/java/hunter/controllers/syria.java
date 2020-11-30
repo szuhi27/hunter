@@ -135,7 +135,7 @@ public class syria {
 
         int finalScore = GameplayData.CalculateScore(finalTimeSecT, score, killed, missedShots);
         finalScoreT.setText("Your calculated score is: " + finalScore);
-        GameplayData.storeScore("scoresSyria.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
+        GameplayData.SaveGameData("scoresSyria.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
     }
 
     public void body(ActionEvent event) throws IOException {
