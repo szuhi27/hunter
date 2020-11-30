@@ -48,6 +48,7 @@ public class syria {
     private MediaPlayer a;
     private boolean music=true;
 
+    @FXML
     public void initialize(){
         syriaBcg.setImage(new Image(getClass().getResource("/images/syria/syria.png").toExternalForm()));
         music();
