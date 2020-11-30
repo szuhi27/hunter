@@ -133,7 +133,7 @@ public class syria {
         killedT.setText("and killed " + killed + " terrorists,");
         missedT.setText(GameplayData.missedText(missedShots));
 
-        int finalScore = GameplayData.calculateScore(finalTimeSecT, score, killed, missedShots);
+        int finalScore = GameplayData.CalculateScore(finalTimeSecT, score, killed, missedShots);
         finalScoreT.setText("Your calculated score is: " + finalScore);
         GameplayData.storeScore("scoresSyria.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
     }
