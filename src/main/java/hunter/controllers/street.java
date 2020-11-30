@@ -107,7 +107,7 @@ public class street {
         missedT.setText(GameplayData.missedText(missedShots));
         int finalScore = GameplayData.CalculateScore(finalTimeSecT,score,killed,missedShots);
         finalScoreT.setText("Your calculated score is: " + finalScore);
-        GameplayData.storeScore("scoresAfghan.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
+        GameplayData.SaveGameData("scoresAfghan.txt", name, finalScore, finalTimeT.getText(), missedShots,killed);
 
     }
 
