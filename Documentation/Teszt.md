@@ -76,11 +76,11 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 23 | Kill rendezés 100 | ☑ |
 | 24 | Kill rendezés < 100 | ☑ |
 | 25 | Hinghscore/Music | ☑ |
-| 26 |  |  |
-| 27 |  |  |
-| 28 |  |  |
-| 29 |  |  |
-| 30 |  |  |
+| 26 | Syria kiiratás  | ☑ |
+| 27 | Afghan kiiratás | ☑ |
+| 28 | Windows  betűtípus | ☑ |
+| 29 | Linux betűtípus | ☑ |
+| 30 | Zene leállítás | ☑ |
 | 31 |  |  |
 | 32 |  |  |
 | 33 |  |  |
