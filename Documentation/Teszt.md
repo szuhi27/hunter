@@ -66,11 +66,11 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 13 | Pont kiszámítás 25-25-re | ☑ |
 | 14 | Pont kiszámítás 0 miss-re | ☑ |
 | 15 | Pont kiszámítás 5 miss-re | ☑ |
-| 16 |  |  |
-| 17 |  |  |
-| 18 |  |  |
-| 19 |  |  |
-| 20 |  |  |
+| 16 | Score space rendezés | ☑ |
+| 17 | Miss space rendezés | ☑ |
+| 18 | Kill space rendezés | ☑ |
+| 19 | Score rendezés 1000-nél több | ☑ |
+| 20 | Score rendezés 99-1000 | ☑ |
 | 21 |  |  |
 | 22 |  |  |
 | 23 |  |  |
