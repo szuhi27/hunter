@@ -71,11 +71,11 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 18 | Kill space rendezés | ☑ |
 | 19 | Score rendezés 1000-nél több | ☑ |
 | 20 | Score rendezés 99-1000 | ☑ |
-| 21 |  |  |
-| 22 |  |  |
-| 23 |  |  |
-| 24 |  |  |
-| 25 |  |  |
+| 21 | Miss rendezés 0-10 | ☑ |
+| 22 | Miss rendezés 10+ | ☑ |
+| 23 | Kill rendezés 100 | ☑ |
+| 24 | Kill rendezés < 100 | ☑ |
+| 25 | Hinghscore/Music | ☑ |
 | 26 |  |  |
 | 27 |  |  |
 | 28 |  |  |
