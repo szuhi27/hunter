@@ -54,12 +54,13 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 2 | Syria játékmenet mentése | ☑ |
 | 3 | Eredmények rendezése, egy eredményre | ☑ |
 | 4 | Eredmények rendezése két eredményre | ☒ |
-| 5 | Eredmények rendezése külön fileba |  |
-| 6 |  |  |
-| 7 |  |  |
-| 8 |  |  |
-| 9 |  |  |
-| 10 |  |  |
+| 5 | Eredmények rendezése külön fileba | ☑ |
+| 5 | Eredmények rendezése külön fileba | ☑ |
+| 6 | Eredmények rendezése két eredényre | ☑ |
+| 7 | Syria eredmények betöltése üres filera | ☑ |
+| 8 | Afghan eredmények betöltése üres filera | ☑ |
+| 9 | Syrian eredmények törlése egy ereményre | ☑ |
+| 10 | Afghan eredmények törlése egy eredményre | ☑ |
 | 11 |  |  |
 | 12 |  |  |
 | 13 |  |  |
