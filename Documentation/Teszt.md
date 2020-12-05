@@ -45,7 +45,7 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 39 | Név nem megadásakor az alapértelmezett név 'AAA' a Syria pályán | ☑ |  
 | 40 | 3 perc elteltével a játék nem ér véget | ☑ |  
 
-# Ranyhó
+# Ranyhóczki Mariann
 
 Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | --- | --- | --- |
