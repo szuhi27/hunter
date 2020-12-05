@@ -4,16 +4,16 @@
 
 Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | --- | --- | --- |
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
-| 6 |  |  |  |
-| 7 |  |  |  |
-| 8 |  |  |  |
-| 9 |  |  |  |
-| 10 |  |  |  |
+| 1 | Képernyőre kattintásra lövés hang az Afghan pályán | ☑ |  
+| 2 | Ellenség nem eltalálására Score nem változik az Afghan pályán | ☑ |  
+| 3 | Ellenség eltalálására változik a Score az Afghan pályán | ☑ |  
+| 4 | Ellenség testének eltalálására Score+1 az Afghan pályán | ☑ |  
+| 5 | Ellenség fejének eltalálására Score+2 az Afghan pályán | ☑ |  
+| 6 | Mute gomb lenyomására zene elnémul az Afghan pályán | ☑ |  
+| 7 | Unmute gomb lenyomására zene elindul az Afghan pályán | ☑ |
+| 8 | Ellenség eltalálására új ellenség megjelenése az Afghan pályán | ☑ |  
+| 9 | Ellenség eltalálására az új ellenség nem ugyanazon a helyen jelenik meg az Afghan pályán | ☑ |  
+| 10 | Képernyőre kattintásra lövés hang a Syria pályán | ☑ |  
 | 11 |  |  |  |
 | 12 |  |  |  |
 | 13 |  |  |  |
