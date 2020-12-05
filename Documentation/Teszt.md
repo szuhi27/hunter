@@ -46,7 +46,7 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 40 | 3 perc elteltével a játék nem ér véget | ☑ |  
 
 
-#Szuhai Dávid
+# Szuhai Dávid
 
 Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | --- | --- | --- |
