@@ -81,11 +81,11 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 28 | Windows  betűtípus | ☑ |
 | 29 | Linux betűtípus | ☑ |
 | 30 | Zene leállítás | ☑ |
-| 31 |  |  |
-| 32 |  |  |
-| 33 |  |  |
-| 34 |  |  |
-| 35 |  |  |
+| 31 | negy eredmény betöltés | ☑ |
+| 32 | het eredmény betöltés | ☑ |
+| 33 | nyolc eremény betöltés | ☑ |
+| 34 | tiz eredmény betöltés | ☑ |
+| 35 | tizenkettő eredmény betöltés | ☑ |
 | 36 |  |  |
 | 37 |  |  |
 | 38 |  |  |
