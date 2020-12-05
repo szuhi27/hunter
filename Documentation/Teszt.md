@@ -61,11 +61,11 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 8 | Afghan eredmények betöltése üres filera | ☑ |
 | 9 | Syrian eredmények törlése egy ereményre | ☑ |
 | 10 | Afghan eredmények törlése egy eredményre | ☑ |
-| 11 |  |  |
-| 12 |  |  |
-| 13 |  |  |
-| 14 |  |  |
-| 15 |  |  |
+| 11 | Pont kiszámítás csak headshotra | ☑ |
+| 12 | Pont kiszámítás csak testlövésre | ☑ |
+| 13 | Pont kiszámítás 25-25-re | ☑ |
+| 14 | Pont kiszámítás 0 miss-re | ☑ |
+| 15 | Pont kiszámítás 5 miss-re | ☑ |
 | 16 |  |  |
 | 17 |  |  |
 | 18 |  |  |
