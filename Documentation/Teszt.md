@@ -50,11 +50,11 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 
 Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | --- | --- | --- |
-| 1 | --- | ☒ |
-| 2 |  |  |
-| 3 |  |  |
-| 4 |  |  |
-| 5 |  |  |
+| 1 | Afghan játékmenet mentése | ☑ |
+| 2 | Syria játékmenet mentése | ☑ |
+| 3 | Eredmények rendezése, egy eredményre | ☑ |
+| 4 | Eredmények rendezése két eredményre | ☒ |
+| 5 | Eredmények rendezése külön fileba |  |
 | 6 |  |  |
 | 7 |  |  |
 | 8 |  |  |
