@@ -34,13 +34,13 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 28 | A highscore megjelenésekor a mute gomb lenyomására a zene elnémul a Syria pályán | ☑ |  
 | 29 | A highscore megjelenésekor az unmute gomb lenyomására a zene elindul az Afghan pályán  | ☑ |  
 | 30 | A highscore megjelenésekor az unmute gomb lenyomására a zene elnémul a Syria pályán | ☑  |  
-| 31 |  |  |  |
-| 32 |  |  |  |
-| 33 |  |  |  |
-| 34 |  |  |  |
-| 35 |  |  |  |
-| 36 |  |  |  |
-| 37 |  |  |  |
-| 38 |  |  |  |
-| 39 |  |  |  |
-| 40 |  |  |  |
+| 31 | A highscore megjelenésekor a menu gombra kattintva visszatér a menübe az Afghan pályáról | ☑ |  
+| 32 | A highscore megjelenésekor a menu gombra kattintva visszatér a menübe a Syria pályáról | ☑ |  
+| 33 | A zene újraindul az Afghan pályán | ☑ |  
+| 34 | A zene újraindul a Syria pályán | ☑ |  
+| 35 | A zászló eltalálásakor nincs találat a Syria pályán | ☑ |  
+| 36 | Az ellenség lábának eltalálásakor nincs találat a Syria pályán | ☑ |  
+| 37 | Az ellenség karjának eltalálásakor nincs találat az Afghan pályán | ☑ |  
+| 38 | Név nem megadásakor az alapértelmezett név 'AAA' az Afghan pályán | ☑ |  
+| 39 | Név nem megadásakor az alapértelmezett név 'AAA' a Syria pályán | ☑ |  
+| 40 | 3 perc elteltével a játék nem ér véget | ☑ |  
