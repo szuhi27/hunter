@@ -24,16 +24,16 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 18 | Ellenség eltalálására az új ellenség nem ugyanazon a helyen jelenik meg a Syria pályán | ☑  |  
 | 19 | 50 pontnál a játék nem ér véget az Afghan pályán | ☑  |  
 | 20 | 50 pontnál a játék nem ér véget a Syria pályán | ☑  |  
-| 21 |  |  |  |
-| 22 |  |  |  |
-| 23 |  |  |  |
-| 24 |  |  |  |
-| 25 |  |  |  |
-| 26 |  |  |  |
-| 27 |  |  |  |
-| 28 |  |  |  |
-| 29 |  |  |  |
-| 30 |  |  |  |
+| 21 | 100 pontnál a játék véget ér az Afghan pályán | ☑ |  
+| 22 | 100 pontnál a játék véget ér a Syria pályán | ☑ |  
+| 23 | A játék végén a játéknak vége van az Afghan pályán | ☑ |  
+| 24 | A játék végén a játéknak vége van a Syria pályán | ☑ |  
+| 25 | A játék végén az eredmény megjelenése az Afghan pályán | ☑ |  
+| 26 | A játék végén az eredmény megjelenése a Syria pályán | ☑ |  
+| 27 | A highscore megjelenésekor a mute gomb lenyomására a zene elnémul az Afghan pályán | ☑ |  
+| 28 | A highscore megjelenésekor a mute gomb lenyomására a zene elnémul a Syria pályán | ☑ |  
+| 29 | A highscore megjelenésekor az unmute gomb lenyomására a zene elindul az Afghan pályán  | ☑ |  
+| 30 | A highscore megjelenésekor az unmute gomb lenyomására a zene elnémul a Syria pályán | ☑  |  
 | 31 |  |  |  |
 | 32 |  |  |  |
 | 33 |  |  |  |
