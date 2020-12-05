@@ -44,3 +44,51 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 38 | Név nem megadásakor az alapértelmezett név 'AAA' az Afghan pályán | ☑ |  
 | 39 | Név nem megadásakor az alapértelmezett név 'AAA' a Syria pályán | ☑ |  
 | 40 | 3 perc elteltével a játék nem ér véget | ☑ |  
+
+
+#Szuhai Dávid
+
+Sorszám | Elvárt teljesítmény | Teszt sikeressége |
+| --- | --- | --- |
+| 1 | Afghan játékmenet mentése | ☑ |
+| 2 | Syria játékmenet mentése | ☑ |
+| 3 | Eredmények rendezése, egy eredményre | ☑ |
+| 4 | Eredmények rendezése két eredményre | ☒ |
+| 5 | Eredmények rendezése külön fileba | ☑ |
+| 5 | Eredmények rendezése külön fileba | ☑ |
+| 6 | Eredmények rendezése két eredényre | ☑ |
+| 7 | Syria eredmények betöltése üres filera | ☑ |
+| 8 | Afghan eredmények betöltése üres filera | ☑ |
+| 9 | Syrian eredmények törlése egy ereményre | ☑ |
+| 10 | Afghan eredmények törlése egy eredményre | ☑ |
+| 11 | Pont kiszámítás csak headshotra | ☑ |
+| 12 | Pont kiszámítás csak testlövésre | ☑ |
+| 13 | Pont kiszámítás 25-25-re | ☑ |
+| 14 | Pont kiszámítás 0 miss-re | ☑ |
+| 15 | Pont kiszámítás 5 miss-re | ☑ |
+| 16 | Score space rendezés | ☑ |
+| 17 | Miss space rendezés | ☑ |
+| 18 | Kill space rendezés | ☑ |
+| 19 | Score rendezés 1000-nél több | ☑ |
+| 20 | Score rendezés 99-1000 | ☑ |
+| 21 | Miss rendezés 0-10 | ☑ |
+| 22 | Miss rendezés 10+ | ☑ |
+| 23 | Kill rendezés 100 | ☑ |
+| 24 | Kill rendezés < 100 | ☑ |
+| 25 | Hinghscore/Music | ☑ |
+| 26 | Syria kiiratás  | ☑ |
+| 27 | Afghan kiiratás | ☑ |
+| 28 | Windows  betűtípus | ☑ |
+| 29 | Linux betűtípus | ☑ |
+| 30 | Zene leállítás | ☑ |
+| 31 | negy eredmény betöltés | ☑ |
+| 32 | het eredmény betöltés | ☑ |
+| 33 | nyolc eremény betöltés | ☑ |
+| 34 | tiz eredmény betöltés | ☑ |
+| 35 | tizenkettő eredmény betöltés | ☑ |
+| 36 | syria betöltés file nélkül | ☒☑ |
+| 37 | afghan betöltés file nélkül | ☒☑ |
+| 38 | syria kiiratás üres filera | ☑ |
+| 39 | afhgan kiiratás üres filera | ☑ |
+| 40 | 0 eredmény léterjötte | ☒☑ |
+
