@@ -20,6 +20,18 @@ public class GameplayData {
         }
         return nameT.getText();
     }
+    
+        public static String missedText(int missedShots){
+        String missesText = "";
+        if (missedShots == 0) {
+            missesText="and you missed 0 shots. Nice!";
+        } else if (missedShots < 10) {
+            missesText="and missed only " + missedShots + " shots.";
+        } else {
+            missesText="but missed " + missedShots + " shots.";
+        }
+        return missesText;
+    }
 
     //Kiszámolja a scoret, a win()-be kellesz meghívni
     public static int CalculateScore(String finalTime, int score, int killed, int missedShots){
