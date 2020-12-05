@@ -73,6 +73,7 @@ public class Menu {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/playAfghanFXML.fxml"));
         stage.setScene(new Scene(root));
         stage.show();
+        a.pause();
 
     }
 
