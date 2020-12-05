@@ -36,6 +36,8 @@
             <children>
                 <ImageView fx:id="afghanButton" fitHeight="540.0" fitWidth="440.0" pickOnBounds="true" preserveRatio="true" />
                 <Button fx:id="afghanB" mnemonicParsing="false" onAction="#goAfghanistan" opacity="0.0" prefHeight="540.0" prefWidth="440.0" text="afghan" />
+            <ImageView fx:id="syrianButton" fitHeight="540.0" fitWidth="440.0" layoutX="450.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="syriaB" layoutX="450.0" mnemonicParsing="false" onAction="#goSyria" opacity="0.0" prefHeight="540.0" prefWidth="440.0" text="syria" />
             </children>
         </Pane>
         <ImageView fx:id="muteIV" fitHeight="45.0" fitWidth="135.0" layoutX="1079.0" layoutY="760.0" pickOnBounds="true" preserveRatio="true" />

@@ -1,5 +1,8 @@
 package hunter.dataHandling;
 
+import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
