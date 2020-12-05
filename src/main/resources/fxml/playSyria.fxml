@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="819.0" prefWidth="1228.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hunter.controllers.syria">
    <children>
-      <ImageView fx:id="streetBcg" fitHeight="819.0" fitWidth="1228.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="syriaBcg" fitHeight="819.0" fitWidth="1228.0" pickOnBounds="true" preserveRatio="true" />
       <Button mnemonicParsing="false" onAction="#missClick" opacity="0.0" prefHeight="819.0" prefWidth="1228.0" text="Button" />
       <Pane fx:id="seven" layoutX="819.0" layoutY="399.0" prefHeight="150.0" prefWidth="150.0" visible="false">
       <children>

@@ -98,7 +98,7 @@ public class HighScore {
     }
 
     //jócskán le kell tesztelni, múködik e hogy ugyanabba a fileba kerül visszaírásra a dolog!!!
-    public void sortScore(String map) throws IOException{
+    public void sortScore(String map, String sortedmap) throws IOException{
 
         FileReader fr = new FileReader(map);
         BufferedReader reader = new BufferedReader(fr);
@@ -120,7 +120,7 @@ public class HighScore {
         }
 
         resultArrayList.sort(new scoreCompare());
-        FileWriter fw = new FileWriter(map);
+        FileWriter fw = new FileWriter(sortedmap);
         BufferedWriter writer = new BufferedWriter(fw);
         for (result result : resultArrayList){
 
@@ -143,23 +143,23 @@ public class HighScore {
 
         if (whichMap != null && whichMap.equals("Syrian")) {
 
-            sortScore("scoresSyria.txt");
+            sortScore("scoresSyria.txt", "syriaSorted.txt");
 
             if(isThereData){
 
                 textArea.clear();
-                setTextArea("scoresSyria.txt");
+                setTextArea("syriaSorted.txt");
 
             }
 
         } else if (whichMap != null && whichMap.equals("Afghan")){
 
-            sortScore("scoresAfghan.txt");
+            sortScore("scoresAfghan.txt", "afghanSorted.txt");
 
             if(isThereData){
 
                 textArea.clear();
-                setTextArea("scoresAfghan.txt");
+                setTextArea("afghanSorted.txt");
 
             }
 
