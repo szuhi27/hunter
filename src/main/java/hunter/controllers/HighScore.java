@@ -240,11 +240,11 @@ public class HighScore {
         confirmPane.setVisible(false);
         if(whichMap != null && whichMap.equals("Afghan")){
 
-            clear("scoresAfghan.txt");
+            clear("scoresAfghan.txt", "afghanSorted.txt");
 
         } else if (whichMap != null && whichMap.equals("Syrian")){
 
-            clear("scoresSyria.txt");
+            clear("scoresSyria.txt", "syriaSorted.txt");
 
         }
     }
@@ -256,13 +256,13 @@ public class HighScore {
 
     }
 
-    private void clear(String scores) throws IOException{
+    private void clear(String scores, String sorted) throws IOException{
 
         FileWriter fr = new FileWriter(scores);
         BufferedWriter writer = new BufferedWriter(fr);
         writer.write("");
         writer.close();
-        sortScore(scores);
+        sortScore(scores,sorted);
         textArea.clear();
 
     }
