@@ -86,9 +86,9 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 33 | nyolc eremény betöltés | ☑ |
 | 34 | tiz eredmény betöltés | ☑ |
 | 35 | tizenkettő eredmény betöltés | ☑ |
-| 36 |  |  |
-| 37 |  |  |
-| 38 |  |  |
-| 39 |  |  |
-| 40 |  |  |
+| 36 | syria betöltés file nélkül | ☒☑ |
+| 37 | afghan betöltés file nélkül | ☒☑ |
+| 38 | syria kiiratás üres filera | ☑ |
+| 39 | afhgan kiiratás üres filera | ☑ |
+| 40 | 0 eredmény léterjötte | ☒☑ |
 
