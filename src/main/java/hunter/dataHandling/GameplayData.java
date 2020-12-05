@@ -5,6 +5,21 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class GameplayData {
+    
+        public static String getName(TextField tf) {
+        Text nameT = new Text();
+        String[] name = tf.getText().split(" ");
+        if (name.length==0){
+            nameT.setText("AAA");
+        }else if (tf.getText() != null && !tf.getText().isEmpty() && name[0].length() == 3) {
+            nameT.setText(name[0].toUpperCase());
+        } else if (tf.getText() != null && !tf.getText().isEmpty() && name[0].length() > 3){
+            nameT.setText(name[0].toUpperCase().substring(0,3));
+        } else {
+            nameT.setText("AAA");
+        }
+        return nameT.getText();
+    }
 
     //Kiszámolja a scoret, a win()-be kellesz meghívni
     public static int CalculateScore(String finalTime, int score, int killed, int missedShots){
