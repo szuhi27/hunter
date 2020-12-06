@@ -65,10 +65,10 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 14 | Afghan pályán fej eltalálása esetén 2 pont | ☑ |  
 | 15 | Syria pályán test eltalálása esetén 1 pont | ☑ |  
 | 16 | Syria pályán fej eltalálása esetén 2 pont | ☑ |  
-| 17 |  | ☑ |  
-| 18 |  | ☑ |  
-| 19 |  | ☑ |  
-| 20 |  | ☑ |  
+| 17 | Menu gomb megjelenése | ☑ |  
+| 18 | Menu gomb megnyomása esetén visszatérés a menübe | ☑ |  
+| 19 | Pálya végén Hihscore megjelenése | ☑ |  
+| 20 | Highscoreban Name,Score,Time,Misses,Kills oszlopok megjelenése| ☑ |  
 | 21 |  | ☑ |  
 | 22 |  | ☑ |  
 | 23 |  | ☑ |  
