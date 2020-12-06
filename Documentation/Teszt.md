@@ -50,7 +50,7 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | --- | --- | --- |
 | 1 | A játék indítása | ☑ |  
-| 2 | több pálya megjelenése | ☑ |  
+| 2 | Több pálya megjelenése | ☑ |  
 | 3 | Afghan pályára kattintással Afganisztán pálya megjelenése | ☑ |  
 | 4 | Syria pályára kattintással Szíria pálya megjelenése | ☑ |  
 | 5 | Afghan pályán Mute gomb megjelenése| ☑ |  
@@ -61,10 +61,10 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 10 | Unmute gomb megnyomásával a zene újból hallható Afghan pályán| ☑ |  
 | 11 | A Mute gomb megnyomásával zene némítása Syria pályán | ☑ |  
 | 12 | Unmute gomb megnyomásával a zene újból hallható Syria pályán | ☑ |  
-| 13 |  | ☑ |  
-| 14 |  | ☑ |  
-| 15 |  | ☑ |  
-| 16 |  | ☑ |  
+| 13 | Afghan pályán test eltalálása esetén 1 pont | ☑ |  
+| 14 | Afghan pályán fej eltalálása esetén 2 pont | ☑ |  
+| 15 | Syria pályán test eltalálása esetén 1 pont | ☑ |  
+| 16 | Syria pályán fej eltalálása esetén 2 pont | ☑ |  
 | 17 |  | ☑ |  
 | 18 |  | ☑ |  
 | 19 |  | ☑ |  
