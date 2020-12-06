@@ -50,28 +50,28 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | --- | --- | --- |
 | 1 | A játék indítása | ☑ |  
-| 2 | Több pálya megjelenése | ☑ |  
-| 3 | Afghan pályára kattintással Afganisztán pálya megjelenése | ☑ |  
-| 4 | Syria pályára kattintással Szíria pálya megjelenése | ☑ |  
-| 5 | Afghan pályán Mute gomb megjelenése| ☑ |  
-| 6 | Afghan pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |  
-| 7 | Syria pályán Mute gomb megjelenése | ☑ |  
-| 8 | Syria pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |
-| 9 | A Mute gomb megnyomásával zene némítása Afghan pályán | ☑ |  
-| 10 | Unmute gomb megnyomásával a zene újból hallható Afghan pályán| ☑ |  
-| 11 | A Mute gomb megnyomásával zene némítása Syria pályán | ☑ |  
-| 12 | Unmute gomb megnyomásával a zene újból hallható Syria pályán | ☑ |  
-| 13 | Afghan pályán test eltalálása esetén 1 pont | ☑ |  
-| 14 | Afghan pályán fej eltalálása esetén 2 pont | ☑ |  
-| 15 | Syria pályán test eltalálása esetén 1 pont | ☑ |  
-| 16 | Syria pályán fej eltalálása esetén 2 pont | ☑ |  
-| 17 | Menu gomb megjelenése | ☑ |  
-| 18 | Menu gomb megnyomása esetén visszatérés a menübe | ☑ |  
-| 19 | Pálya végén Hihscore megjelenése | ☑ |  
-| 20 | Highscoreban Name,Score,Time,Misses,Kills oszlopok megjelenése| ☑ |  
-| 21 |  | ☑ |  
-| 22 |  | ☑ |  
-| 23 |  | ☑ |  
+| 2 | A Play gomb megjelenése | ☑ |  
+| 3 | A Play gomb lenyomásával a játék elindul | ☑ |  
+| 4 | Több pálya megjelenése | ☑ |  
+| 5 | Afghan pályára kattintással Afganisztán pálya megjelenése | ☑ |  
+| 6 | Syria pályára kattintással Szíria pálya megjelenése | ☑ |  
+| 7 | Afghan pályán Mute gomb megjelenése| ☑ |  
+| 8 | Afghan pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |  
+| 9 | Syria pályán Mute gomb megjelenése | ☑ |  
+| 10 | Syria pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |
+| 11 | A Mute gomb megnyomásával zene némítása Afghan pályán | ☑ |  
+| 12 | Unmute gomb megnyomásával a zene újból hallható Afghan pályán| ☑ |  
+| 13 | A Mute gomb megnyomásával zene némítása Syria pályán | ☑ |  
+| 14 | Unmute gomb megnyomásával a zene újból hallható Syria pályán | ☑ |  
+| 15 | Afghan pályán test eltalálása esetén 1 pont | ☑ |  
+| 16 | Afghan pályán fej eltalálása esetén 2 pont | ☑ |  
+| 17 | Syria pályán test eltalálása esetén 1 pont | ☑ |  
+| 18 | Syria pályán fej eltalálása esetén 2 pont | ☑ |  
+| 19 | Menu gomb megjelenése | ☑ |  
+| 20 | Menu gomb megnyomása esetén visszatérés a menübe | ☑ |  
+| 21 | Pálya végén Highscore megjelenése | ☑ |  
+| 22 | Highscoreban Name,Score,Time,Misses,Kills oszlopok megjelenése| ☑ |  
+| 23 | Highscoreban a játékos nevének kérése 3 karakterben | ☑ |  
 | 24 |  | ☑ |  
 | 25 |  | ☑ |  
 | 26 |  | ☑ |  
