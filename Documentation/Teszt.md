@@ -81,10 +81,10 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 30 | Afghan pályán kétszer egymás után nem jelenik meg ugyanott ellenség | ☑ |  
 | 31 | Syria pályán kétszer egymás után nem jelenik meg ugyanott ellenség | ☑ |  
 | 32 | Exit gomb megjelenése | ☑ |  
-| 33 | Exit gomb megjelenése essetén kilépés | ☑ |  
-| 34 |  | ☑ |  
-| 35 |  | ☑ |  
-| 36 |  | ☑ |  
+| 33 | Exit gomb megjelenése esetén kilépés | ☑ |  
+| 34 | Lövésnél hangeffekt hallható | ☑ |  
+| 35 | Játék vége Syria pályán 100 pontnál | ☑ |  
+| 36 | Játék vége Afghan pályán 100 pontnál | ☑ |  
 | 37 |  | ☑ |  
 | 38 |  | ☑ |  
 | 39 |  | ☑ |  
