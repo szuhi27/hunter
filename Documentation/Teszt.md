@@ -137,3 +137,25 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 38 | syria kiiratás üres filera | ☑ |
 | 39 | afhgan kiiratás üres filera | ☑ |
 | 40 | 0 eredmény léterjötte | ☒☑ |
+
+
+# Boros Gergely
+
+Sorszám | Elvárt teljesítmény | Teszt sikeressége |
+| --- | --- | --- |
+| 1 | Menü megjelenése | ☑ |
+| 2 | Menüben play gomb megjenik | ☑ |
+| 3 | Menüben highscore gomb megjelenik | ☑ |
+| 4 | Menüben exit gomb megjelenik | ☑ |
+| 5 | Menü háttér megjelenik | ☑ |
+| 5 | Play gombra megjelennek a mapok | ☑ |
+| 6 | Highscore megnyomására megjelnik a highscore tábla | ☑ |
+| 7 | Exit gomb működik | ☑ |
+| 8 | Afghan map háttér megjelenik | ☑ |
+| 9 | Syrian map megjelenik | ☑ |
+| 10 | Afghan map gomb működik | ☑ |
+| 11 | syrian gomb működik | ☑ |
+| 12 | Map választó menüből exit gomb működik | ☑ |
+| 13 | játékból kilépve a menü megjelenik | ☑ |
+| 14 | Highscore táblázatból kilépve a menü megjelenik | ☑ |
+| 15 | megnyitva a játékot a menü megjelenik | ☑ |
