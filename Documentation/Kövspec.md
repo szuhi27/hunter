@@ -46,4 +46,5 @@ háttérzene illetve hangefektek, pl.: lövés hangja.
 + 6.5 A játék first person view -ban legyen játszható.
 + 6.6 Jó lenne egy lista melyben megjeleníti a legjobb 10 pontszámot amit elértek a játékban.
 + 6.7 A játék kezelése a lehető legegyszerűbb legyen. Csak egérrel kelljen kattintani benne.
-+ 6.8 folytatás
++ 6.8 A rendszer window 10 rendszeren fusson
++ 6.9 A rendszer könnyen kezelhető legyen, elég legyen az egérrel vezérelni.
