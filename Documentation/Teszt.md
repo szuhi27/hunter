@@ -53,15 +53,14 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 2 | több pálya megjelenése | ☑ |  
 | 3 | Afghan pályára kattintással Afganisztán pálya megjelenése | ☑ |  
 | 4 | Syria pályára kattintással Szíria pálya megjelenése | ☑ |  
-| 4 | Afghan pályán Mute gomb megjelenése| ☑ |  
-| 5 | Afghan pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |  
-| 6 |  | ☑ |  
-| 7 |  | ☑ |
-| 8 |  | ☑ |  
-| 9 |  | ☑ |  
-| 10 |  | ☑ |  
-| 11 |  | ☑ |  
-| 12 |  | ☑ |  
+| 5 | Afghan pályán Mute gomb megjelenése| ☑ |  
+| 6 | Afghan pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |  
+| 7 | Syria pályán Mute gomb megjelenése | ☑ |  
+| 8 | Syria pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |
+| 9 | A Mute gomb megnyomásával zene némítása Afghan pályán | ☑ |  
+| 10 | Unmute gomb megnyomásával a zene újból hallható Afghan pályán| ☑ |  
+| 11 | A Mute gomb megnyomásával zene némítása Syria pályán | ☑ |  
+| 12 | Unmute gomb megnyomásával a zene újból hallható Syria pályán | ☑ |  
 | 13 |  | ☑ |  
 | 14 |  | ☑ |  
 | 15 |  | ☑ |  
