@@ -112,6 +112,7 @@ A menüben is ki és be lehet kapcsolni a zenét.
 Fizikai Környezet
 ---------------------
 A programot Java nyelven írjuk java fx segítségével, adatbázisnak egyszerű szöveges dokumentumot alkalmazunk, Windows 10 rendszerre.
+Az én laptom például egy 4 magos intel processzor egy gtx 1050 videókártyával, 8 giga rammal. ez bőven elég a program futásához.
 
 ## Tesztterv
 ------------------------------
