@@ -55,3 +55,5 @@ háttérzene illetve hangefektek, pl.: lövés hangja.
 + 6.14 Játék közben is írja ki a program hogy éppen hány pontnál járunk.
 + 6.15 legyenek megkülönböztethető méretű célpontok a játékban.
 + 6.16 Legyen Színes.
++ 6.17 Legyen hasonlo a counterstrike világához.
++ 6.18 legyen 2D ben.
