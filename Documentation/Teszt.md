@@ -85,8 +85,8 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 34 | Lövésnél hangeffekt hallható | ☑ |  
 | 35 | Játék vége Syria pályán 100 pontnál | ☑ |  
 | 36 | Játék vége Afghan pályán 100 pontnál | ☑ |  
-| 37 |  | ☑ |  
-| 38 |  | ☑ |  
-| 39 |  | ☑ |  
-| 40 |  | ☑ |  
+| 37 | A pályákon nem jár pont mellékattintásnál | ☑ |  
+| 38 | And you missed 0 shots. Nice! kiírása ha nincs mellékattintás | ☑ |  
+| 39 | And missed only "missedShots" shots. kiírása 10 hiba alatt| ☑ |  
+| 40 | But missed "missedShots" shots. kiírása 10 hibánál vagy 10 hiba felett | ☑ |  
 
