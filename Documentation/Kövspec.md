@@ -48,3 +48,4 @@ háttérzene illetve hangefektek, pl.: lövés hangja.
 + 6.7 A játék kezelése a lehető legegyszerűbb legyen. Csak egérrel kelljen kattintani benne.
 + 6.8 A rendszer window 10 rendszeren fusson
 + 6.9 A rendszer könnyen kezelhető legyen, elég legyen az egérrel vezérelni.
++ 6.10 A játékban miközben éppen lőjük a katonákat fusson aképernyőn egy időzítő.
