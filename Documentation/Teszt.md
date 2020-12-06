@@ -49,11 +49,12 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 
 Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | --- | --- | --- |
-| 1 |  | ☑ |  
-| 2 |  | ☑ |  
-| 3 |  | ☑ |  
-| 4 |  | ☑ |  
-| 5 |  | ☑ |  
+| 1 | A játék indítása | ☑ |  
+| 2 | több pálya megjelenése | ☑ |  
+| 3 | Afghan pályára kattintással Afganisztán pálya megjelenése | ☑ |  
+| 4 | Syria pályára kattintással Szíria pálya megjelenése | ☑ |  
+| 4 | Afghan pályán Mute gomb megjelenése| ☑ |  
+| 5 | Afghan pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |  
 | 6 |  | ☑ |  
 | 7 |  | ☑ |
 | 8 |  | ☑ |  
