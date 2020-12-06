@@ -78,10 +78,10 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 27 | Highscoreban a Time oszlopban helyes érték kiírása | ☑ |  
 | 28 | Highscoreban a Misses oszlopban helyes érték kiírása | ☑ |  
 | 29 | Highscoreban a Kills oszlopban helyes érték kiírása | ☑ |  
-| 30 |  | ☑ |  
-| 31 |  | ☑ |  
-| 32 |  | ☑ |  
-| 33 |  | ☑ |  
+| 30 | Afghan pályán kétszer egymás után nem jelenik meg ugyanott ellenség | ☑ |  
+| 31 | Syria pályán kétszer egymás után nem jelenik meg ugyanott ellenség | ☑ |  
+| 32 | Exit gomb megjelenése | ☑ |  
+| 33 | Exit gomb megjelenése essetén kilépés | ☑ |  
 | 34 |  | ☑ |  
 | 35 |  | ☑ |  
 | 36 |  | ☑ |  
