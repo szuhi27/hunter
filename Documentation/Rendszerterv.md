@@ -86,6 +86,12 @@ Követelmények
 + Játszon le zenét a program miközben játszunk.
 + Játék közben is írja ki a program hogy éppen hány pontnál járunk.
 + legyenek megkülönböztethető méretű célpontok a játékban.
++ Legyen Színes.
++ Legyen hasonlo a counterstrike világához.
++ legyen 2D ben.
++ Írja ki játék közben a pontszámokat.
++ Több felhasználót is megtudjon különböztetni.
++ Akármikor ki és be lehessen kapcsolni a zenét.
 
 
 
