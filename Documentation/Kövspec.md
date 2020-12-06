@@ -51,3 +51,4 @@ háttérzene illetve hangefektek, pl.: lövés hangja.
 + 6.10 A játékban miközben éppen lőjük a katonákat fusson aképernyőn egy időzítő.
 + 6.11 A játék tárolja el a 10 legjobb eredményt.
 + 6.12 A játék értékelje  pontosabb célzást.
++ 6.13 Játszon le zenét a program miközben játszunk.
