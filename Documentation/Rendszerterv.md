@@ -102,6 +102,9 @@ A 3 gomb egymás alatt van ezek az alábbiak: Play, Highscore , Exit. A PLay gom
 Az Afghan gomb megnyomásával elindul a a játék kér tőlünk 3 karaktert amivel az dott felhasználót azonosítja, és így hozzátudja kötnia pontszámot, amit a Start gombbal kell megerősíteni.
 A start gomb lenyomása után elnindul a játék ahol megjelennek a terrorísták és rájuk kattintva lépked a számláló, itt még ki és be lehet kapcsolni a zenét és a menübe viszalépni.
 Ha viszont végigjátszuk a pályát akkor amint összegyűjtünk 100 pontot, szintén amenübe térünk vissza.
+Ha A syrian mapot választjuk akkor ugyanaz a lefolyása ami az Afghan mapnak. 
+A menüben lévő highscore gomb megnyomásával egy highscore táblát láthatunk, amint alegjobb 10 eredményt látjuk.
+Itt még ki és be tudjuk kapcsolni a zenét, valamint visszatudunk lémpni a menübe.
 
 
 
