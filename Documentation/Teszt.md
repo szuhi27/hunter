@@ -74,10 +74,10 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 23 | Highscoreban a játékos nevének kérése 3 karakterben | ☑ |  
 | 24 | Highscoreban ha nem adunk meg nevet az 'AAA' karakterek használata Afghan pályán  | ☑ |  
 | 25 | Highscoreban ha nem adunk meg nevet az 'AAA' karakterek használata Syria pályán | ☑ |  
-| 26 |  | ☑ |  
-| 27 |  | ☑ |  
-| 28 |  | ☑ |  
-| 29 |  | ☑ |  
+| 26 | Highscoreban a Score oszlopban helyes érték kiírása | ☑ |  
+| 27 | Highscoreban a Time oszlopban helyes érték kiírása | ☑ |  
+| 28 | Highscoreban a Misses oszlopban helyes érték kiírása | ☑ |  
+| 29 | Highscoreban a Kills oszlopban helyes érték kiírása | ☑ |  
 | 30 |  | ☑ |  
 | 31 |  | ☑ |  
 | 32 |  | ☑ |  
