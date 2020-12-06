@@ -99,6 +99,10 @@ Funkcionális terv
 -----------------
 A program funkcióit az alábbi képernyőtervekkel szeretném felvázolni. Megnyitjuk a programot, ezután a menü tárul elénk egy címmel és 3 gombbal.
 A 3 gomb egymás alatt van ezek az alábbiak: Play, Highscore , Exit. A PLay gomb lenyomásával 2 map közül választhatunk amin játszani lehet, ezek: Afghan, Syrian.
+Az Afghan gomb megnyomásával elindul a a játék kér tőlünk 3 karaktert amivel az dott felhasználót azonosítja, és így hozzátudja kötnia pontszámot, amit a Start gombbal kell megerősíteni.
+A start gomb lenyomása után elnindul a játék ahol megjelennek a terrorísták és rájuk kattintva lépked a számláló, itt még ki és be lehet kapcsolni a zenét és a menübe viszalépni.
+Ha viszont végigjátszuk a pályát akkor amint összegyűjtünk 100 pontot, szintén amenübe térünk vissza.
+
 
 
 Fizikai Környezet
