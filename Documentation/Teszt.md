@@ -46,6 +46,52 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 40 | 3 perc elteltével a játék nem ér véget | ☑ |  
 
 
+# Ranyhóczki Mariann
+
+Sorszám | Elvárt teljesítmény | Teszt sikeressége |
+| --- | --- | --- |
+| 1 | A játék indítása | ☑ |  
+| 2 | A Play gomb megjelenése | ☑ |  
+| 3 | A Play gomb lenyomásával a játék elindul | ☑ |  
+| 4 | Több pálya megjelenése | ☑ |  
+| 5 | Afghan pályára kattintással Afganisztán pálya megjelenése | ☑ |  
+| 6 | Syria pályára kattintással Szíria pálya megjelenése | ☑ |  
+| 7 | Afghan pályán Mute gomb megjelenése| ☑ |  
+| 8 | Afghan pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |  
+| 9 | Syria pályán Mute gomb megjelenése | ☑ |  
+| 10 | Syria pályán Mute gomb megnyomása után Unmute gomb megjelenése | ☑ |
+| 11 | A Mute gomb megnyomásával zene némítása Afghan pályán | ☑ |  
+| 12 | Unmute gomb megnyomásával a zene újból hallható Afghan pályán| ☑ |  
+| 13 | A Mute gomb megnyomásával zene némítása Syria pályán | ☑ |  
+| 14 | Unmute gomb megnyomásával a zene újból hallható Syria pályán | ☑ |  
+| 15 | Afghan pályán test eltalálása esetén 1 pont | ☑ |  
+| 16 | Afghan pályán fej eltalálása esetén 2 pont | ☑ |  
+| 17 | Syria pályán test eltalálása esetén 1 pont | ☑ |  
+| 18 | Syria pályán fej eltalálása esetén 2 pont | ☑ |  
+| 19 | Menu gomb megjelenése | ☑ |  
+| 20 | Menu gomb megnyomása esetén visszatérés a menübe | ☑ |  
+| 21 | Pálya végén Highscore megjelenése | ☑ |  
+| 22 | Highscoreban Name,Score,Time,Misses,Kills oszlopok megjelenése| ☑ |  
+| 23 | Highscoreban a játékos nevének kérése 3 karakterben | ☑ |  
+| 24 | Highscoreban ha nem adunk meg nevet az 'AAA' karakterek használata Afghan pályán  | ☑ |  
+| 25 | Highscoreban ha nem adunk meg nevet az 'AAA' karakterek használata Syria pályán | ☑ |  
+| 26 | Highscoreban a Score oszlopban helyes érték kiírása | ☑ |  
+| 27 | Highscoreban a Time oszlopban helyes érték kiírása | ☑ |  
+| 28 | Highscoreban a Misses oszlopban helyes érték kiírása | ☑ |  
+| 29 | Highscoreban a Kills oszlopban helyes érték kiírása | ☑ |  
+| 30 | Afghan pályán kétszer egymás után nem jelenik meg ugyanott ellenség | ☑ |  
+| 31 | Syria pályán kétszer egymás után nem jelenik meg ugyanott ellenség | ☑ |  
+| 32 | Exit gomb megjelenése | ☑ |  
+| 33 | Exit gomb megnyomása esetén kilépés | ☑ |  
+| 34 | Lövésnél hangeffekt hallható | ☑ |  
+| 35 | Játék vége Syria pályán 100 pontnál | ☑ |  
+| 36 | Játék vége Afghan pályán 100 pontnál | ☑ |  
+| 37 | A pályákon nem jár pont mellékattintásnál | ☑ |  
+| 38 | And you missed 0 shots. Nice! kiírása ha nincs mellékattintás | ☑ |  
+| 39 | And missed only "missedShots" shots. kiírása 10 hiba alatt | ☑ |  
+| 40 | But missed "missedShots" shots. kiírása 10 hibánál vagy 10 hiba felett | ☑ |  
+
+
 # Szuhai Dávid
 
 Sorszám | Elvárt teljesítmény | Teszt sikeressége |
@@ -91,4 +137,3 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 38 | syria kiiratás üres filera | ☑ |
 | 39 | afhgan kiiratás üres filera | ☑ |
 | 40 | 0 eredmény léterjötte | ☒☑ |
-
