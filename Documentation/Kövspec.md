@@ -57,3 +57,6 @@ háttérzene illetve hangefektek, pl.: lövés hangja.
 + 6.16 Legyen Színes.
 + 6.17 Legyen hasonlo a counterstrike világához.
 + 6.18 legyen 2D ben.
++ 6.19 Írja ki játék közben a pontszámokat.
++ 6.20 Több felhasználót is megtudjon különböztetni.
++ 6.21 Akármikor ki és be lehessen kapcsolni a zenét.
