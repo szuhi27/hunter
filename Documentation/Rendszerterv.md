@@ -97,7 +97,9 @@ Követelmények
 
 Funkcionális terv
 -----------------
-A program funkcióit az alábbi képernyőtervekkel szeretném felvázolni. Megnyitjuk a programot 
+A program funkcióit az alábbi képernyőtervekkel szeretném felvázolni. Megnyitjuk a programot, ezután a menü tárul elénk egy címmel és 3 gombbal.
+A 3 gomb egymás alatt van ezek az alábbiak: Play, Highscore , Exit. A PLay gomb lenyomásával 2 map közül választhatunk amin játszani lehet, ezek: Afghan, Syrian.
+
 
 Fizikai Környezet
 ---------------------
