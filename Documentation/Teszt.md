@@ -81,12 +81,12 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 30 | Afghan pályán kétszer egymás után nem jelenik meg ugyanott ellenség | ☑ |  
 | 31 | Syria pályán kétszer egymás után nem jelenik meg ugyanott ellenség | ☑ |  
 | 32 | Exit gomb megjelenése | ☑ |  
-| 33 | Exit gomb megjelenése esetén kilépés | ☑ |  
+| 33 | Exit gomb megnyomása esetén kilépés | ☑ |  
 | 34 | Lövésnél hangeffekt hallható | ☑ |  
 | 35 | Játék vége Syria pályán 100 pontnál | ☑ |  
 | 36 | Játék vége Afghan pályán 100 pontnál | ☑ |  
 | 37 | A pályákon nem jár pont mellékattintásnál | ☑ |  
 | 38 | And you missed 0 shots. Nice! kiírása ha nincs mellékattintás | ☑ |  
-| 39 | And missed only "missedShots" shots. kiírása 10 hiba alatt| ☑ |  
+| 39 | And missed only "missedShots" shots. kiírása 10 hiba alatt | ☑ |  
 | 40 | But missed "missedShots" shots. kiírása 10 hibánál vagy 10 hiba felett | ☑ |  
 
