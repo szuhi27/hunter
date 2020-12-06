@@ -105,7 +105,8 @@ Ha viszont végigjátszuk a pályát akkor amint összegyűjtünk 100 pontot, sz
 Ha A syrian mapot választjuk akkor ugyanaz a lefolyása ami az Afghan mapnak. 
 A menüben lévő highscore gomb megnyomásával egy highscore táblát láthatunk, amint alegjobb 10 eredményt látjuk.
 Itt még ki és be tudjuk kapcsolni a zenét, valamint visszatudunk lémpni a menübe.
-
+Amenüben lévő exit gomb lenypmásával pedig kilép a játék, leáll a program. 
+A menüben is ki és be lehet kapcsolni a zenét.
 
 
 Fizikai Környezet
