@@ -53,3 +53,5 @@ háttérzene illetve hangefektek, pl.: lövés hangja.
 + 6.12 A játék értékelje  pontosabb célzást.
 + 6.13 Játszon le zenét a program miközben játszunk.
 + 6.14 Játék közben is írja ki a program hogy éppen hány pontnál járunk.
++ 6.15 legyenek megkülönböztethető méretű célpontok a játékban.
++ 6.16 Legyen Színes.
