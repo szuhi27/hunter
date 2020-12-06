@@ -72,8 +72,8 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 21 | Pálya végén Highscore megjelenése | ☑ |  
 | 22 | Highscoreban Name,Score,Time,Misses,Kills oszlopok megjelenése| ☑ |  
 | 23 | Highscoreban a játékos nevének kérése 3 karakterben | ☑ |  
-| 24 |  | ☑ |  
-| 25 |  | ☑ |  
+| 24 | Highscoreban ha nem adunk meg nevet az 'AAA' karakterek használata Afghan pályán  | ☑ |  
+| 25 | Highscoreban ha nem adunk meg nevet az 'AAA' karakterek használata Syria pályán | ☑ |  
 | 26 |  | ☑ |  
 | 27 |  | ☑ |  
 | 28 |  | ☑ |  
