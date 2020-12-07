@@ -86,16 +86,33 @@ Követelmények
 + Játszon le zenét a program miközben játszunk.
 + Játék közben is írja ki a program hogy éppen hány pontnál járunk.
 + legyenek megkülönböztethető méretű célpontok a játékban.
++ Legyen Színes.
++ Legyen hasonlo a counterstrike világához.
++ legyen 2D ben.
++ Írja ki játék közben a pontszámokat.
++ Több felhasználót is megtudjon különböztetni.
++ Akármikor ki és be lehessen kapcsolni a zenét.
 
 
 
 Funkcionális terv
 -----------------
-A program funkcióit az alábbi képernyőtervekkel szeretném felvázolni. Megnyitjuk a programot 
+A program funkcióit az alábbi képernyőtervekkel szeretném felvázolni. Megnyitjuk a programot, ezután a menü tárul elénk egy címmel és 3 gombbal.
+A 3 gomb egymás alatt van ezek az alábbiak: Play, Highscore , Exit. A PLay gomb lenyomásával 2 map közül választhatunk amin játszani lehet, ezek: Afghan, Syrian.
+Az Afghan gomb megnyomásával elindul a a játék kér tőlünk 3 karaktert amivel az dott felhasználót azonosítja, és így hozzátudja kötnia pontszámot, amit a Start gombbal kell megerősíteni.
+A start gomb lenyomása után elnindul a játék ahol megjelennek a terrorísták és rájuk kattintva lépked a számláló, itt még ki és be lehet kapcsolni a zenét és a menübe viszalépni.
+Ha viszont végigjátszuk a pályát akkor amint összegyűjtünk 100 pontot, szintén amenübe térünk vissza.
+Ha A syrian mapot választjuk akkor ugyanaz a lefolyása ami az Afghan mapnak. 
+A menüben lévő highscore gomb megnyomásával egy highscore táblát láthatunk, amint alegjobb 10 eredményt látjuk.
+Itt még ki és be tudjuk kapcsolni a zenét, valamint visszatudunk lémpni a menübe.
+Amenüben lévő exit gomb lenypmásával pedig kilép a játék, leáll a program. 
+A menüben is ki és be lehet kapcsolni a zenét.
+
 
 Fizikai Környezet
 ---------------------
 A programot Java nyelven írjuk java fx segítségével, adatbázisnak egyszerű szöveges dokumentumot alkalmazunk, Windows 10 rendszerre.
+Az én laptom például egy 4 magos intel processzor egy gtx 1050 videókártyával, 8 giga rammal. ez bőven elég a program futásához.
 
 ## Tesztterv
 ------------------------------

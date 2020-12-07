@@ -137,3 +137,51 @@ Sorszám | Elvárt teljesítmény | Teszt sikeressége |
 | 38 | syria kiiratás üres filera | ☑ |
 | 39 | afhgan kiiratás üres filera | ☑ |
 | 40 | 0 eredmény léterjötte | ☒☑ |
+
+
+# Boros Gergely
+
+Sorszám | Elvárt teljesítmény | Teszt sikeressége |
+| --- | --- | --- |
+| 1 | Menü megjelenése | ☑ |
+| 2 | Menüben play gomb megjenik | ☑ |
+| 3 | Menüben highscore gomb megjelenik | ☑ |
+| 4 | Menüben exit gomb megjelenik | ☑ |
+| 5 | Menü háttér megjelenik | ☑ |
+| 5 | Play gombra megjelennek a mapok | ☑ |
+| 6 | Highscore megnyomására megjelnik a highscore tábla | ☑ |
+| 7 | Exit gomb működik | ☑ |
+| 8 | Afghan map háttér megjelenik | ☑ |
+| 9 | Syrian map megjelenik | ☑ |
+| 10 | Afghan map gomb működik | ☑ |
+| 11 | Syrian gomb működik | ☑ |
+| 12 | Map választó menüből exit gomb működik | ☑ |
+| 13 | Játékból kilépve a menü megjelenik | ☑ |
+| 14 | Highscore táblázatból kilépve a menü megjelenik | ☑ |
+| 15 | Megnyitva a játékot a menü megjelenik | ☑ |
+| 16 | Play gomb háttér megjelenik| ☑ |
+| 17 | Highscore gomb háttér megjelenik | ☑ |
+| 18 | Exit gomb háttér megjelenik | ☑ |
+| 19 | Menü háttér megjelenik | ☑ |
+| 20 | játékból kilépve a menü megjelenik | ☑ |
+| 21 | Hoghscore tábla böngszésésből visszalépve a menü megjelenik| ☑ |
+| 22 | Play gomb működik | ☑ |
+| 23 | Hoghscore működik | ☑ |
+| 24 | Exit működik | ☑ |
+| 25 | Menü megjelenik | ☑ |
+| 26 | Menü megjelenése | ☑ |
+| 27 | Menüben play gomb megjenik | ☑ |
+| 28 | Menüben highscore gomb megjelenik | ☑ |
+| 29 | Menüben exit gomb megjelenik | ☑ |
+| 30 | Menü háttér megjelenik | ☑ |
+| 31 | Play gombra megjelennek a mapok | ☑ |
+| 32 | Highscore megnyomására megjelnik a highscore tábla | ☑ |
+| 33 | Exit gomb működik | ☑ |
+| 34 | Afghan map háttér megjelenik | ☑ |
+| 35 | Syrian map megjelenik | ☑ |
+| 36 | Afghan map gomb működik | ☑ |
+| 37 | Syrian gomb működik | ☑ |
+| 38 | Map választó menüből exit gomb működik | ☑ |
+| 39 | Játékból kilépve a menü megjelenik | ☑ |
+| 40 | Highscore táblázatból kilépve a menü megjelenik | ☑ |
+| 41 | Megnyitva a játékot a menü megjelenik | ☑ |

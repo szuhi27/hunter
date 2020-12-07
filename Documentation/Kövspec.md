@@ -46,4 +46,17 @@ háttérzene illetve hangefektek, pl.: lövés hangja.
 + 6.5 A játék first person view -ban legyen játszható.
 + 6.6 Jó lenne egy lista melyben megjeleníti a legjobb 10 pontszámot amit elértek a játékban.
 + 6.7 A játék kezelése a lehető legegyszerűbb legyen. Csak egérrel kelljen kattintani benne.
-+ 6.8 folytatás
++ 6.8 A rendszer window 10 rendszeren fusson
++ 6.9 A rendszer könnyen kezelhető legyen, elég legyen az egérrel vezérelni.
++ 6.10 A játékban miközben éppen lőjük a katonákat fusson aképernyőn egy időzítő.
++ 6.11 A játék tárolja el a 10 legjobb eredményt.
++ 6.12 A játék értékelje  pontosabb célzást.
++ 6.13 Játszon le zenét a program miközben játszunk.
++ 6.14 Játék közben is írja ki a program hogy éppen hány pontnál járunk.
++ 6.15 legyenek megkülönböztethető méretű célpontok a játékban.
++ 6.16 Legyen Színes.
++ 6.17 Legyen hasonlo a counterstrike világához.
++ 6.18 legyen 2D ben.
++ 6.19 Írja ki játék közben a pontszámokat.
++ 6.20 Több felhasználót is megtudjon különböztetni.
++ 6.21 Akármikor ki és be lehessen kapcsolni a zenét.
